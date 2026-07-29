@@ -1,0 +1,362 @@
+{
+  "description": "Master prosody emotion taxonomy for children's audiobook narration. Use this as the fixed set of allowed 'emotion' values across all chunk files.",
+  "emotions": [
+    {
+      "id": "neutral_narrator",
+      "name": "Neutral/Narrator",
+      "description": "Baseline storytelling voice: warm, even pace, moderate pitch. The default state between emotional beats."
+    },
+    {
+      "id": "joyful_happy",
+      "name": "Joyful/Happy",
+      "description": "Bright pitch, quicker pace, lifted energy for celebration and delight."
+    },
+    {
+      "id": "sad_melancholic",
+      "name": "Sad/Melancholic",
+      "description": "Slower pace, lower pitch, softer volume, downward inflections for loss or disappointment."
+    },
+    {
+      "id": "angry_frustrated",
+      "name": "Angry/Frustrated",
+      "description": "Clipped, harder-edged delivery, faster attack, louder for conflict or annoyance."
+    },
+    {
+      "id": "fearful_scared",
+      "name": "Fearful/Scared",
+      "description": "Trembling or breathy quality, uneven rhythm, quickened pace for danger or alarm."
+    },
+    {
+      "id": "surprised",
+      "name": "Surprised/Astonished",
+      "description": "Sudden pitch jump, a brief pause before, exclamatory shape for shock or unexpected reveals."
+    },
+    {
+      "id": "calm_soothing",
+      "name": "Calm/Soothing",
+      "description": "Slow, quiet, gentle delivery for peaceful, comforting, or lullaby-like moments."
+    },
+    {
+      "id": "excited_energetic",
+      "name": "Excited/Energetic",
+      "description": "Fast, high-energy, big pitch swings for action or anticipation."
+    },
+    {
+      "id": "playful_silly",
+      "name": "Playful/Silly",
+      "description": "Bouncy rhythm, exaggerated pitch swings, whimsical energy for lighthearted activity or make-believe. Distinct from Humorous/Funny: this is about tone and energy, not landing a joke."
+    },
+    {
+      "id": "mysterious_suspenseful",
+      "name": "Mysterious/Suspenseful",
+      "description": "Hushed, slow, deliberate delivery, words drawn out for tension or intrigue."
+    },
+    {
+      "id": "tender_loving",
+      "name": "Tender/Loving",
+      "description": "Soft, warm, slow, intimate delivery for affection and closeness."
+    },
+    {
+      "id": "villainous_menacing",
+      "name": "Villainous/Menacing",
+      "description": "Low, slow, deliberate delivery with a slight growl quality, for antagonists or threatening moments."
+    },
+    {
+      "id": "curious_wondering",
+      "name": "Curious/Wondering",
+      "description": "Rising, questioning inflection, light open-ended pace for curiosity or discovery."
+    },
+    {
+      "id": "nervous_worried",
+      "name": "Nervous/Worried",
+      "description": "Hesitant, shaky pacing, uneven rhythm for uncertainty or low-grade apprehension. Lower stakes than Fearful/Scared."
+    },
+    {
+      "id": "humorous_funny",
+      "name": "Humorous/Funny",
+      "description": "Light comedic timing, amused lilt, a small emphasis or beat of a pause before the punchline word, warm chuckle undertone. For jokes, teasing banter, or lines meant to land as genuinely funny \u2014 distinct from Playful/Silly, which is about energetic/whimsical tone rather than comedic delivery."
+    },
+    {
+      "id": "whining_pleading",
+      "name": "Whining/Pleading",
+      "description": "Nasal, drawn-out vowels with a rising-falling singsong pitch contour (the classic 'but I don't wannaaa' shape), pleading or protesting tone. Common in children's dialogue when negotiating, protesting, or begging. Distinct from Sad/Melancholic: whining is higher-pitched and performative/protesting rather than genuinely grief-driven \u2014 though the two often blend (a child can whine while also truly being upset). Use the optional 'secondary_emotion' field on a chunk to capture that blend."
+    },
+    {
+      "id": "moral_aphorism",
+      "name": "Moral/Aphorism",
+      "description": "The explicit lesson-statement common in fables and older didactic children's stories ('And so the tortoise learned that slow and steady...'). Sententious, wise, address-the-listener-directly tone \u2014 narrator steps slightly outside the story to speak to the audience. Not used in contemporary picture books, which rarely state morals outright."
+    }
+  ],
+  "humor_types": {
+    "description": "Sub-taxonomy used only when 'emotion' (or 'secondary_emotion') is Humorous/Funny, or when a 'scenes' entry is a comedic_motif. Identifies WHY something is funny, separate from Humorous/Funny which describes HOW it should sound. Informed by Mallan's (1993) classification of humor in children's literature by character/situation/language, and McGhee's developmental research on incongruity as the core mechanism of children's humor.",
+    "sources": [
+      "Mallan, K. (1993) humor classification (character, situation, language) \u2014 summarized in Fisher-Katz-Keohane, 'Humor in Children's Literature', K-6 Connect (Medium): https://medium.com/k-6-connect/humor-in-childrens-literature-73f55cab5a73",
+      "McGhee, P. \u2014 four-stage model of humor development (incongruous actions, incongruous labels, incongruous features, multiple word meanings): https://www.degruyterbrill.com/document/doi/10.1515/humor-2016-0091/html",
+      "Humour in Children's and Young Adult Literature: The Work of Gilles Bachelet, Children's Literature in Education (Springer): https://link.springer.com/article/10.1007/s10583-021-09463-8"
+    ],
+    "types": [
+      {
+        "id": "incongruity_absurd",
+        "name": "Incongruity/Absurd",
+        "description": "Humor from a mismatch between register/expectation and reality \u2014 elevated or serious language applied to something mundane or silly (or vice versa). The core mechanism behind the 'royal-naming-motif' scene (an ordinary duckling treated as royalty).",
+        "delivery": "Play the mismatched register straight and sincere \u2014 the humor comes from the audience noticing the gap, not from the narrator winking at it."
+      },
+      {
+        "id": "wordplay_verbal_wit",
+        "name": "Wordplay/Verbal Wit",
+        "description": "Puns, rhymes, silly names, or a word used with two meanings at once. McGhee's 'multiple word meanings' stage \u2014 the joke lives in the language itself.",
+        "delivery": "Slight emphasis and a small pause right before the pun word so it lands; a little lift in pitch on the word itself."
+      },
+      {
+        "id": "exaggeration_hyperbole",
+        "name": "Exaggeration/Hyperbole",
+        "description": "Comic overstatement \u2014 the biggest, the worst, the most, an over-the-top claim or description.",
+        "delivery": "Big pitch swing upward, slightly slower on the exaggerated word to let it stretch."
+      },
+      {
+        "id": "slapstick_physical",
+        "name": "Slapstick/Physical Comedy",
+        "description": "Pratfalls, clumsiness, exaggerated physical mishaps \u2014 comedy of the body and action rather than language.",
+        "delivery": "Quick tempo with a comic 'thud' beat/pause right at the moment of the mishap, then a light recovery tone."
+      },
+      {
+        "id": "surprise_reversal",
+        "name": "Surprise/Reversal",
+        "description": "A punchline twist or unexpected reveal that flips what the listener expected.",
+        "delivery": "A brief pause right before the reveal, then a quick, bright delivery of the twist itself."
+      },
+      {
+        "id": "mischief_defiance",
+        "name": "Mischief/Defiance",
+        "description": "A character's cheeky rule-breaking or naughtiness, played affectionately rather than as real conflict.",
+        "delivery": "Playful, slightly sly lilt \u2014 impish, not aggressive."
+      },
+      {
+        "id": "dry_ironic",
+        "name": "Dry/Ironic (Deadpan)",
+        "description": "Understated, knowing humor \u2014 often a quiet callback that lands more with the adult reading aloud than the child listening (common 'dual-audience' humor in picture books). The germy-duck handwashing callback is this type.",
+        "delivery": "Keep it understated and matter-of-fact \u2014 resist the urge to oversell it; the joke is in the restraint. A slight knowing emphasis on the key word (see 'emphasis' field) does the work instead of a big vocal turn."
+      },
+      {
+        "id": "running_gag_callback",
+        "name": "Running Gag/Callback",
+        "description": "A motif or phrase repeated across the story that gains humor through familiarity and a final payoff or twist. Tracked structurally via the 'scenes' array (setup/build/payoff/callback roles).",
+        "delivery": "Echo the vocal shape used in the earlier setup occurrences so listeners recognize the callback, then land the payoff slightly more pointed than the setups."
+      },
+      {
+        "id": "bodily_scatological",
+        "name": "Bodily/Gross-out (Scatological)",
+        "description": "Burps, farts, potty humor \u2014 reliably funny to young children per humor-development research, though tone/frequency should match the book's overall register.",
+        "delivery": "Exaggerated comic glee, a little louder and faster, embracing the silliness rather than downplaying it."
+      }
+    ]
+  },
+  "book_profile_schema": {
+    "description": "A per-book (not per-chunk) object that sets the emotional ceiling and narrator personality before any chunk tagging happens. The chunk-level system (emotion/intensity/volume/secondary_emotion/scenes/humor_types) stays identical across genres and eras \u2014 this layer decides how far it's allowed to swing for THIS book, so the same 'Excited/Energetic, high, loud' tag doesn't get delivered with equal theatricality in a nonfiction field guide and a rhyming picture book.",
+    "fields": {
+      "genre": "fiction | narrative_nonfiction | expository_nonfiction",
+      "style_era": "contemporary | classic_literary | oral_fable",
+      "narrator_stance": "one-line description of the narrator's personality/distance for this book",
+      "emotional_range": {
+        "intensity_ceiling": "the loudest/most extreme 'intensity' value allowed anywhere in the book (low/medium/high)",
+        "volume_ceiling": "the loudest 'volume' value allowed anywhere in the book (whisper/soft/normal/loud/shout)",
+        "disabled_emotions": "emotions from the taxonomy that don't belong in this book at all (e.g. Villainous/Menacing in a gentle nonfiction book)",
+        "favored_humor_types": "which humor_types this book's register naturally uses, if any"
+      }
+    },
+    "detection_signals": {
+      "metadata": "If available, BISAC/Thema/ONIX subject codes give a free first-pass signal: JUV/YAF = Juvenile/YA Fiction, JNF/YNF = Juvenile/YA Nonfiction (source: Book Industry Study Group, bisg.org). Most raw manuscripts won't carry this, so treat it as a bonus signal, not a dependency.",
+      "fiction_vs_expository_nonfiction": "Named, recurring characters with dialogue and scene-by-scene action = fiction/narrative. Generic class-level statements about a category of thing ('Ducks are waterfowl that...'), definitions, dates, statistics, captions, sidebars = expository nonfiction. Presence of glossary/index/back matter (already stripped as non-narration) is a strong nonfiction signal even before stripping.",
+      "narrative_nonfiction": "Real people/events but told with scene-setting, reconstructed dialogue, sensory detail, and an emotional arc \u2014 reads structurally like fiction even though the facts are true. Should get close to the full fiction emotional range, not the dampened nonfiction range.",
+      "classic_literary_vs_contemporary": "Longer, more ornate sentences; an omniscient narrator who occasionally comments on a character's behavior with gentle irony (Dry/Ironic + Mischief/Defiance humor types, but at lower intensity/volume, slower pace); period vocabulary. Contemporary picture books trend toward short punchy/rhyming lines, exclamation-heavy text, and are built for big theatrical swings (favor Excited/Energetic, Slapstick, high intensity/loud volume).",
+      "oral_fable": "Archetypal characters (the Fox, the Crow) rather than fully personified named individuals, sententious storyteller cadence, and often an explicit stated moral at the end \u2014 tag that closing line as Moral/Aphorism rather than Neutral/Narrator."
+    },
+    "example_profiles": [
+      {
+        "label": "Contemporary picture book fiction (e.g. Pharaoh Duck, Pig the Pug)",
+        "genre": "fiction",
+        "style_era": "contemporary",
+        "narrator_stance": "close, warm, theatrical \u2014 full expressive range, big swings encouraged",
+        "emotional_range": {
+          "intensity_ceiling": "high",
+          "volume_ceiling": "shout",
+          "disabled_emotions": [],
+          "favored_humor_types": [
+            "incongruity_absurd",
+            "slapstick_physical",
+            "exaggeration_hyperbole"
+          ]
+        }
+      },
+      {
+        "label": "Classic literary children's fiction (e.g. Peter Rabbit)",
+        "genre": "fiction",
+        "style_era": "classic_literary",
+        "narrator_stance": "omniscient, gently wry, measured pace \u2014 comments on characters rather than fully embodying their urgency",
+        "emotional_range": {
+          "intensity_ceiling": "medium",
+          "volume_ceiling": "loud",
+          "disabled_emotions": [],
+          "favored_humor_types": [
+            "dry_ironic",
+            "mischief_defiance"
+          ]
+        }
+      },
+      {
+        "label": "Oral fable (e.g. Aesop)",
+        "genre": "fiction",
+        "style_era": "oral_fable",
+        "narrator_stance": "sententious storyteller addressing the listener directly, especially at the closing moral",
+        "emotional_range": {
+          "intensity_ceiling": "medium",
+          "volume_ceiling": "normal",
+          "disabled_emotions": [],
+          "favored_humor_types": [
+            "dry_ironic",
+            "incongruity_absurd"
+          ]
+        }
+      },
+      {
+        "label": "Expository nonfiction (e.g. a factual field guide to ducks)",
+        "genre": "expository_nonfiction",
+        "style_era": "contemporary",
+        "narrator_stance": "friendly, informative, calm \u2014 delighted by facts but not theatrical",
+        "emotional_range": {
+          "intensity_ceiling": "medium",
+          "volume_ceiling": "normal",
+          "disabled_emotions": [
+            "Villainous/Menacing",
+            "Angry/Frustrated"
+          ],
+          "favored_humor_types": [
+            "wordplay_verbal_wit"
+          ]
+        }
+      },
+      {
+        "label": "Narrative nonfiction (e.g. a picture-book biography)",
+        "genre": "narrative_nonfiction",
+        "style_era": "contemporary",
+        "narrator_stance": "close and story-driven, nearly identical range to fiction since it's built from scenes and real emotional stakes",
+        "emotional_range": {
+          "intensity_ceiling": "high",
+          "volume_ceiling": "loud",
+          "disabled_emotions": [],
+          "favored_humor_types": [
+            "dry_ironic"
+          ]
+        }
+      }
+    ]
+  },
+  "illustration_inference": {
+    "description": "Modern picture books are 'show don't tell' \u2014 the text is often deliberately bare because the illustration carries the emotional/narrative weight. A text-only pipeline will systematically under-read energy on these lines unless it explicitly accounts for the missing picture. This section is a heuristic layer for inferring what a paired illustration likely shows, and adjusting delivery accordingly, when no actual image is available.",
+    "detection_signals": [
+      "Sparse, parallel/anaphoric sentence structure (repeated subject templates: 'The court entertains...', 'The court promenades...', 'The court keeps... safe') is itself the strongest text-only signal. This pattern is a genre convention: each short plain sentence corresponds to one full illustrated spread doing most of the work, so bareness should be read as 'illustration-heavy' rather than 'low-energy'.",
+      "Density of concrete, visualizable nouns/verbs (motion verbs, named settings/props \u2014 'palace lawn', 'royal basket', 'picnic blanket', 'promenades') acts as an anchor for a visually busy scene. More concrete imagery words per sentence generally implies a richer, more active illustration.",
+      "Manuscript-level markers, when present, are far more reliable than inference: explicit page/spread labels (PAGE 1, SPREAD 2) or bracketed illustrator notes ('[ILLUS: Ava splashing the duck, big grin]'). These describe the actual planned art rather than requiring a guess, and should be treated as ground truth over any text-only heuristic.",
+      "Page-turn/spread boundaries are the natural chunk boundary for this purpose \u2014 aligning chunk granularity to one-spread-per-chunk (rather than arbitrary sentence splits) keeps each chunk mapped to roughly 'one picture'."
+    ],
+    "chunk_field": {
+      "name": "illustration_inference",
+      "shape": {
+        "implied_scene": "a one-sentence best-guess description of what the companion illustration likely shows",
+        "visual_energy": "low | medium | high \u2014 how busy/dynamic the inferred image likely is, used to adjust delivery energy independent of what the bare sentence states"
+      },
+      "caveat": "This is an approximation, not a fact \u2014 an illustrator/editor can and does make choices the text doesn't imply (e.g. a quiet illustration under an energetic-sounding line, for contrast). Treat this as an enrichment signal for a human/illustrator review pass, not a ground truth. If actual illustrations or sketches exist, the better path is to feed the real image + text into a vision-capable model directly rather than inferring from text alone."
+    }
+  },
+  "verse_prosody": {
+    "description": "A lot of children's text is rhyming/metered verse, not prose. Meter and rhyme are a separate dimension from emotion -- they dictate WHERE the natural stress, bounce, and pause fall in a line, independent of what emotion is being expressed. A joyful line and a scared line in the same poem still want to hit the same underlying rhythmic pulse; the emotion colors the read inside that fixed rhythmic frame, it doesn't override it. This mirrors how 'volume' stays independent of 'intensity' -- same principle, different axis.",
+    "detection_signals": [
+      "End-of-line rhyme: compare the phonetic 'rhyming part' (from the last stressed vowel to the end of the word) of consecutive line-final words. A real implementation should use a phonetic dictionary (e.g. the Python 'pronouncing' package, which wraps the CMU Pronouncing Dictionary) rather than spelling-based matching, since English spelling doesn't reliably predict sound.",
+      "Syllable count per line: a consistent count (or a consistent small range) across most lines is strong evidence of real meter, not free verse or prose. 'pronouncing' also gives syllable counts per word; sum per line.",
+      "Coverage gap, real caveat found while testing this on Turkey Takeover: the CMU dictionary has no entry for some words (e.g. 'casseroles', 'cubbyholes', 'preens' all returned nothing), especially compounds and less common inflections. A production implementation needs a fallback heuristic (vowel-group counting, or a grapheme-to-phoneme model) for out-of-vocabulary words rather than silently failing.",
+      "Meter-break / interruption lines: a line (or short phrase) that sharply undershoots the poem's established syllable count is very often an intentional pacing device, not a mistake -- confirmed on Turkey Takeover, where every short outlier line ('But instead\u2026.', 'A fart\u2026', 'But\u2026', 'The turkeys take over.') lands exactly on a comedic-pause or dramatic-turn beat, and several of them sit BETWEEN two lines that rhyme with each other -- i.e. the couplet's rhyme is deliberately delayed across the interruption rather than skipped. These should be read as a real held pause, not rushed to get back on the beat.",
+      "Near-rhyme/slant-rhyme tolerance: children's verse regularly forces proper nouns or uncommon words into a rhyme that isn't phonetically exact (e.g. 'Eleanor'/'door', or 'chin'/'in' where stress differs slightly). Don't discard these as non-rhymes -- treat close-but-imperfect end-word matches as intentional playful/eye-rhyme, common in the genre."
+    ],
+    "chunk_field": {
+      "name": "verse",
+      "shape": {
+        "syllables_per_line": "syllable count for each original poem line contained in this chunk",
+        "meter_break": "true if this chunk is a short outlier line relative to the book's dominant syllable count -- signals a deliberate pacing pause",
+        "rhyme_role": "self_contained_couplet | opens_couplet | closes_couplet | interruption_between_rhyme | standalone_interruption",
+        "rhymes_with_chunk": "id of the chunk containing this chunk's rhyme partner, when the couplet spans more than one chunk"
+      }
+    },
+    "book_profile_additions": {
+      "verse_form": "true | false -- whether this book is written in rhyme/meter at all",
+      "rhyme_scheme": "e.g. 'AABB couplets', or null for prose",
+      "dominant_meter": "one-line description of the typical line length/stress pattern for this book",
+      "meter_strictness": "guidance on how strongly to lean into the bounce/rhyme landing for this book -- a board book for very young kids usually wants the meter played up more than an older read-aloud would"
+    }
+  },
+  "secondary_emotion": {
+    "description": "Optional field capturing a blended delivery -- two feelings present in the same line at once, rather than forcing a single label to flatten one of them out of existence. Free-form: not restricted to a fixed list of allowed pairs. Any of the 17 emotions can in principle pair with any other as a secondary_emotion.",
+    "when_to_use": "Only when the text genuinely calls for two feelings at once. It should stay rare -- across both test manuscripts (82 chunks total), only 14 needed it. If you're reaching for it on every other line, that's a sign the primary emotion list needs a new entry, not that everything needs a blend.",
+    "compatibility_guidance": "Structurally unrestricted, but not every pairing makes sense for a single voice to deliver in one breath. The practical test: do the two feelings share roughly the same energy/direction in this specific moment? Compatible pairs blend naturally (fear + adrenaline, worry riding under fading excitement, tenderness + joy). Pairs that pull in opposite energetic directions (e.g. Calm/Soothing + Excited/Energetic) don't blend into one sound -- that's a signal the line is actually a transition and should be split into two chunks with a clean cut between them, rather than forced into a single contradictory tag.",
+    "scale_note": "17 primary x 16 possible secondary x 3 intensity levels = 816 describable combinations, but this is an upper bound on the description space, not a set of things that need to be individually authored, trained, or recorded. Most real chunks use no secondary_emotion at all, intensity/volume are continuous modulation on top of one delivery rather than separate trained styles, and most of the 816 combinations simply never occur in real children's text."
+  },
+  "manual_override": {
+    "description": "The human-in-the-loop correction layer. Applied during review, after auto-tagging and after actor comparison testing, before final audio production. Nothing about auto-tagging is meant to be the final word -- this is where a person who catches a mistake (a wrong pronunciation, a misread emotional beat) fixes it, without losing the record of what the system originally guessed.",
+    "core_rule": "Overrides are additive, never destructive. The original auto-tagged value on a chunk is never deleted or edited in place -- a correction is layered on top in a separate 'overrides' object. The final value used for audio production is: the override, if one exists for that field; otherwise, the original auto-tagged value. This keeps an audit trail (useful for exactly the actor-comparison QA process discussed earlier -- you can always see both what the system guessed and what a human corrected it to, and why).",
+    "two_kinds_of_override": {
+      "pronunciation": "Handled primarily through the shared pronunciation_lexicon.json file (word -> respelling, applied everywhere that word appears, across every manuscript) rather than chunk by chunk -- a name like 'Ava' shouldn't need to be fixed 33 separate times in one book and again in every future book. A chunk-level pronunciation override is only needed for a one-off exception, where a word needs a different reading in one specific spot than it does everywhere else.",
+      "emotionality": "A reviewer can override any of a chunk's emotion, secondary_emotion, intensity, volume, or emphasis fields directly on that chunk, when they catch a specific line that was misread."
+    },
+    "chunk_override_shape": {
+      "description": "Optional 'overrides' object added to a chunk only once a human has actually reviewed it. Absent entirely on a chunk that hasn't been reviewed yet. Only include the fields actually being changed -- everything else falls back to the original auto-tagged value.",
+      "fields": {
+        "emotion": "new value, only if being changed",
+        "secondary_emotion": "new value, only if being changed",
+        "intensity": "new value, only if being changed",
+        "volume": "new value, only if being changed",
+        "emphasis": "new value, only if being changed",
+        "pronunciation": "[{ word, respelling }] -- only for a one-off exception not covered by the shared lexicon",
+        "reviewer": "who made the correction",
+        "date": "when",
+        "note": "why -- what was wrong with the original tag, in the reviewer's own words"
+      },
+      "example": {
+        "id": "pd-013",
+        "overrides": {
+          "intensity": "low",
+          "reviewer": "Sara",
+          "date": "2026-08-01",
+          "note": "Actor's cold read came in much quieter than 'medium' here -- felt too big for a private moment between Ava and the duck. Dialing it back."
+        }
+      }
+    },
+    "workflow_note": "This is the natural endpoint of the two-pass actor testing process discussed earlier: where the actor's independent (blind) reading disagrees with the auto-generated tag, that disagreement is exactly what should get resolved here -- either the tag was right and the actor's instinct was atypical, or the actor caught something the auto-tagging missed and an override gets recorded."
+  },
+  "roadmap": {
+    "description": "Features discussed and agreed on in principle, not yet built. Kept here so nothing gets lost before the VS Code build.",
+    "items": [
+      {
+        "name": "Learning from manual overrides",
+        "status": "not built -- discussed only",
+        "summary": "Pronunciation corrections already generalize automatically, since pronunciation_lexicon.json is a global word-keyed lookup: fixing 'Ava' once fixes it in every future manuscript with no extra work. Emotion/humor-judgment corrections are harder because the exact line rarely repeats across books, so there's no string to look up. The planned approach is NOT model retraining (not enough correction volume from a handful of children's books to make fine-tuning worthwhile) -- it's in-context learning: keep every 'overrides' entry's reviewer note in a running corrections log, and when tagging a new manuscript, retrieve past corrections that resemble the current line and hand them to the model as worked examples before it commits to a tag.",
+        "additional_design_notes": [
+          "Add a periodic 'pattern mining' pass over the corrections log -- if the same kind of correction keeps recurring (e.g. adult asides undercutting a kid's grand pronouncement keep getting corrected toward Dry/Ironic), that's a sign the taxonomy itself is missing a rule, and it should get folded back into the documented guidance directly, not just left as accumulating examples.",
+          "Tag each override as 'error correction' vs. 'reviewer preference' from the start, so only genuine error corrections generalize forward -- otherwise the system risks learning one reviewer's personal taste as if it were a general rule."
+        ]
+      },
+      {
+        "name": "Automated pronunciation resolution pipeline",
+        "status": "not built -- designed, ready to implement",
+        "summary": "Three-step resolution for every proper noun/uncommon word before synthesis: (1) CMU Pronouncing Dictionary lookup via the 'pronouncing' package -- already confirmed to correctly cover common personal names for free, including the exact 'Ava' mispronunciation case this project started from; (2) fall back to the hand-curated pronunciation_lexicon.json for invented/compound names the dictionary doesn't know (confirmed gap: 'Flopsy', 'Mopsy', 'Cottontail' all return nothing); (3) flag anything in neither for human review rather than letting the engine silently guess. Full detail in pronunciation_lexicon.json's 'resolution_pipeline' section. Part of the shared backend -- needed by both the voice-clone app and the editorial app equally."
+      },
+      {
+        "name": "Two-application split (shared backend)",
+        "status": "decided, not built",
+        "summary": "Build one shared backend now (ingestion, chunking, non-narration stripping, emotion/intensity/volume/secondary_emotion tagging, scenes/humor_types, verse/meter scansion, book_profile, illustration_inference, pronunciation resolution, manual overrides) and split it into two separate front-end applications later rather than building either as a monolith. App one: voice-clone production tool (this project's original purpose) -- cloned voice, pronunciation lexicon tied to the author's own recurring character names, actor-comparison QA, human overrides aimed at fixing the performance. App two: an editorial tool for picture book writers/agents/editors that flags manuscript problems (broken meter, inconsistent rhyme, pacing issues) and includes a 'read it to me' feature using a generic (non-cloned) voice, with overrides aimed at fixing the manuscript rather than the performance.",
+        "additional_design_notes": [
+          "App two needs two distinct read modes, not one: a neutral/restrained read (emotion tags flattened to a baseline, but structural signals -- meter, rhyme, sentence-boundary pauses, sound effects -- stay active) for diagnosing whether the text's own rhythm holds up, and a full expressive read (identical to app one's output) for hearing how the manuscript could sound once produced. A skilled expressive performance can paper over sloppy pacing, which would defeat the diagnostic purpose if that were the only option.",
+          "App two's manuscript report can also surface an 'emotional legibility' signal per line/scene: whether a chunk's emotion was tagged from evidence explicit in the sentence itself, versus inferred mainly from scene context or illustration convention (reusing the existing illustration_inference and scene_refs fields). Heavy reliance on the second category across a manuscript is a concrete, specific craft note for a writer -- not a vague 'make it more emotional', but which exact lines aren't carrying their intended feeling in the words themselves."
+        ]
+      }
+    ]
+  }
+}

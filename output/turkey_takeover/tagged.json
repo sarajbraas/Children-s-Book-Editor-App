@@ -1,0 +1,1841 @@
+{
+  "title": "Turkey Takeover",
+  "author": "Sara Braas",
+  "note": "",
+  "book_profile": {
+    "genre": "fiction",
+    "style_era": "contemporary",
+    "narrator_stance": "close, warm, theatrical — full expressive range, big swings encouraged",
+    "emotional_range": {
+      "intensity_ceiling": "high",
+      "volume_ceiling": "shout",
+      "disabled_emotions": [],
+      "favored_humor_types": [
+        "incongruity_absurd",
+        "slapstick_physical",
+        "exaggeration_hyperbole"
+      ]
+    },
+    "verse_form": true,
+    "rhyme_scheme": "AABB couplets",
+    "dominant_meter": "~11 syllables per line (median)",
+    "note": "Antagonist type ambiguous: this manuscript has a recurring antagonist or disruptor character. Confirm whether Villainous/Menacing should be disabled for this book's antagonist (a comic/chaotic disruptor, not a real threat) or left enabled (a genuine, if age-appropriate, threat) before production -- the classifier deliberately leaves it enabled by default rather than guessing, since wrongly disabling it for a real threat undersells actual danger, while leaving it enabled for a comic antagonist only costs an occasional line read slightly too dark."
+  },
+  "scenes": [
+    {
+      "scene_id": "gobble-chant-motif",
+      "type": "comedic_motif",
+      "description": "The 'Gobble gobble gobble' chant recurs three times and shifts owner/meaning: first as the turkeys' triumphant chaos, then as Tom's disguised battle-gobble, and finally as the kids' victory cry. Each instance wants a different color — menacing/overwhelming at first, sly and rallying in the middle, jubilant at the end — so the repetition lands as a running gag paying off.",
+      "members": [
+        {
+          "chunk_id": "tt-047",
+          "role": "setup"
+        },
+        {
+          "chunk_id": "tt-058",
+          "role": "build"
+        },
+        {
+          "chunk_id": "tt-067",
+          "role": "payoff"
+        }
+      ],
+      "humor_type": "Running Gag/Callback"
+    },
+    {
+      "scene_id": "turkey-anatomy-vocab",
+      "type": "comedic_motif",
+      "description": "Fancy technical turkey-anatomy words (caruncles, wattles, snoods) are applied to the silly flapping birds, the incongruity of elevated vocabulary for absurd creatures. Deliver these with mock-scientific relish; the callback at tt-045 ('fluffs snoods') should wink back at the earlier catalog.",
+      "members": [
+        {
+          "chunk_id": "tt-017",
+          "role": "setup"
+        },
+        {
+          "chunk_id": "tt-018",
+          "role": "build"
+        },
+        {
+          "chunk_id": "tt-019",
+          "role": "payoff"
+        },
+        {
+          "chunk_id": "tt-045",
+          "role": "callback"
+        }
+      ],
+      "humor_type": "Incongruity/Absurd"
+    },
+    {
+      "scene_id": "toms-hideout-invaded",
+      "type": "narrative_motif",
+      "description": "Tom's favorite hiding spot/nest near the lunchroom is introduced casually as his private refuge, then becomes the emotional turning point when the turkeys invade his 'favorite nook.' The early mentions should feel cozy and low-stakes; the invasion at tt-037 is where Tom's fun collapses into panic — narrate the reversal with real alarm.",
+      "members": [
+        {
+          "chunk_id": "tt-013",
+          "role": "setup"
+        },
+        {
+          "chunk_id": "tt-014",
+          "role": "build"
+        },
+        {
+          "chunk_id": "tt-037",
+          "role": "climax"
+        }
+      ]
+    },
+    {
+      "scene_id": "classroom-subjects-mirror",
+      "type": "narrative_motif",
+      "description": "The school subjects Tom disrupts (Math, Reading, Music, Art) are echoed later as the very rooms/subjects the turkeys destroy (Art trampled, Music's drums flat, Math tests crumpled, Science blown apart). This mirror shows Tom's mischief boomeranging into real damage; the destruction lines should register as consequence, not more fun.",
+      "members": [
+        {
+          "chunk_id": "tt-009",
+          "role": "setup"
+        },
+        {
+          "chunk_id": "tt-010",
+          "role": "build"
+        },
+        {
+          "chunk_id": "tt-032",
+          "role": "climax"
+        },
+        {
+          "chunk_id": "tt-033",
+          "role": "climax"
+        },
+        {
+          "chunk_id": "tt-034",
+          "role": "climax"
+        },
+        {
+          "chunk_id": "tt-035",
+          "role": "climax"
+        }
+      ]
+    },
+    {
+      "scene_id": "terrible-to-turkey-tom",
+      "type": "narrative_motif",
+      "description": "Tom's arc from 'Terrible Tom' the prankster to 'Turkey Tom' the protector of the school. The opening establishes him as a disruptive jokester; the ending recasts him as the school's fiercest defender, capped by the 'turkeys are finally cooked' pun. Narrate the opening with cheeky pride and the closing with earned, warm triumph.",
+      "members": [
+        {
+          "chunk_id": "tt-001",
+          "role": "setup"
+        },
+        {
+          "chunk_id": "tt-068",
+          "role": "resolution"
+        },
+        {
+          "chunk_id": "tt-069",
+          "role": "resolution"
+        },
+        {
+          "chunk_id": "tt-071",
+          "role": "resolution"
+        },
+        {
+          "chunk_id": "tt-073",
+          "role": "resolution"
+        }
+      ]
+    }
+  ],
+  "chunks": [
+    {
+      "id": "tt-001",
+      "text": "Terrible Tom is a riot at school.",
+      "emotion": "Playful/Silly",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "riot"
+      ],
+      "scene_refs": [
+        {
+          "scene_id": "terrible-to-turkey-tom",
+          "role": "setup"
+        }
+      ],
+      "note": "Opening line introducing Tom with an upbeat, admiring energy; 'a riot' should land as fun, not chaotic-scary",
+      "verse": {
+        "syllables_per_line": [
+          10
+        ],
+        "meter_break": false,
+        "rhyme_role": "opens_couplet",
+        "rhymes_with_chunk": "tt-002"
+      }
+    },
+    {
+      "id": "tt-002",
+      "text": "A prankster. A jokester. A jester. “So cool!”",
+      "emotion": "Playful/Silly",
+      "secondary_emotion": "Excited/Energetic",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "prankster",
+        "jokester",
+        "jester",
+        "cool"
+      ],
+      "illustration_inference": {
+        "implied_scene": "the other kids think he’s cool",
+        "source": "author"
+      },
+      "note": "List of playful labels builds with bouncy rhythm; the '\"So cool!\"' is an admiring classmate reaction, delivered with a bright upward lift.",
+      "verse": {
+        "syllables_per_line": [
+          11
+        ],
+        "meter_break": false,
+        "rhyme_role": "closes_couplet",
+        "rhymes_with_chunk": "tt-001"
+      }
+    },
+    {
+      "id": "tt-003",
+      "text": "They want him to sit. They want him to learn.",
+      "emotion": "Neutral/Narrator",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "sit",
+        "learn"
+      ],
+      "note": "Setup line building toward the 'But instead' turn; slight rhythmic stress on the paired demands.",
+      "verse": {
+        "syllables_per_line": [
+          10
+        ],
+        "meter_break": false,
+        "rhyme_role": "opens_couplet",
+        "rhymes_with_chunk": "tt-005"
+      }
+    },
+    {
+      "id": "tt-004",
+      "text": "But instead….",
+      "emotion": "Mysterious/Suspenseful",
+      "intensity": "medium",
+      "volume": "soft",
+      "emphasis": [
+        "instead"
+      ],
+      "illustration_inference": {
+        "implied_scene": "a full page of examples of him distracting the other students and wreaking havoc in class",
+        "source": "author"
+      },
+      "note": "Transitional cliffhanger line — trailing ellipsis sets up a contrast reveal; draw out the pause before the next chunk to build anticipation.",
+      "verse": {
+        "syllables_per_line": [
+          3
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "tt-005",
+      "text": "He gets glares from his teachers - quite stern.",
+      "emotion": "Nervous/Worried",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "stern"
+      ],
+      "note": "Sympathetic to the child's discomfort under stern teacher glares; 'stern' gets the vocal weight to land the disapproval",
+      "verse": {
+        "syllables_per_line": [
+          9
+        ],
+        "meter_break": false,
+        "rhyme_role": "closes_couplet",
+        "rhymes_with_chunk": "tt-003"
+      }
+    },
+    {
+      "id": "tt-006",
+      "text": "They ask him to read, and his skin starts to itch.",
+      "emotion": "Nervous/Worried",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "itch"
+      ],
+      "note": "Tom's discomfort when put on the spot to read — hesitant, uneasy delivery on the rhyme's payoff word 'itch'",
+      "verse": {
+        "syllables_per_line": [
+          11
+        ],
+        "meter_break": false,
+        "rhyme_role": "opens_couplet",
+        "rhymes_with_chunk": "tt-007"
+      }
+    },
+    {
+      "id": "tt-007",
+      "text": "He daydreams and doodles. “School’s just not my niche.”",
+      "emotion": "Sad/Melancholic",
+      "secondary_emotion": "Nervous/Worried",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "niche"
+      ],
+      "note": "Tom's dismissive quote masks real discomfort at school — a resigned shrug covering the anxiety set up in the prior lines. The quoted line should land defeated/defensive, not upbeat.",
+      "verse": {
+        "syllables_per_line": [
+          12
+        ],
+        "meter_break": false,
+        "rhyme_role": "closes_couplet",
+        "rhymes_with_chunk": "tt-006"
+      }
+    },
+    {
+      "id": "tt-008",
+      "text": "So Tom must disrupt it, from when the bell dings.",
+      "emotion": "Playful/Silly",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "disrupt"
+      ],
+      "note": "Tom's mischief framed comically, not menacing — light bouncy delivery on the rhyme.",
+      "verse": {
+        "syllables_per_line": [
+          11
+        ],
+        "meter_break": false,
+        "rhyme_role": "opens_couplet",
+        "rhymes_with_chunk": "tt-009"
+      }
+    },
+    {
+      "id": "tt-009",
+      "text": "He taunts kids in Math class. In Reading he sings.",
+      "emotion": "Playful/Silly",
+      "secondary_emotion": "Excited/Energetic",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "Math",
+        "sings"
+      ],
+      "scene_refs": [
+        {
+          "scene_id": "classroom-subjects-mirror",
+          "role": "setup"
+        }
+      ],
+      "illustration_inference": {
+        "implied_scene": "Tom leans across desks making faces and jeering at classmates in a math-filled classroom (numbers on the board), then belts out a song mid-Reading circle while other kids clutch books in surprise or annoyance",
+        "source": "inferred",
+        "visual_energy": "high"
+      },
+      "note": "Tom's classroom mischief played as cheeky chaos, not real menace — bouncy list rhythm building disruption energy",
+      "verse": {
+        "syllables_per_line": [
+          11
+        ],
+        "meter_break": false,
+        "rhyme_role": "closes_couplet",
+        "rhymes_with_chunk": "tt-008"
+      }
+    },
+    {
+      "id": "tt-010",
+      "text": "In Music he tickles. He whistles in Art.",
+      "emotion": "Playful/Silly",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "tickles",
+        "whistles"
+      ],
+      "scene_refs": [
+        {
+          "scene_id": "classroom-subjects-mirror",
+          "role": "build"
+        }
+      ],
+      "illustration_inference": {
+        "implied_scene": "In a split classroom scene, Tom mischievously tickles a startled classmate during Music while instruments scatter, then puckers up whistling loudly at an easel in Art as paint-splattered kids react with annoyance.",
+        "source": "inferred",
+        "visual_energy": "high"
+      },
+      "note": "Tom's comic classroom disruption — bouncy mischief energy, not menace; list-like rhythm matching the previous line.",
+      "verse": {
+        "syllables_per_line": [
+          11
+        ],
+        "meter_break": false,
+        "rhyme_role": "opens_couplet",
+        "rhymes_with_chunk": "tt-012"
+      }
+    },
+    {
+      "id": "tt-011",
+      "text": "And just when it’s quiet, he slips out…",
+      "emotion": "Mysterious/Suspenseful",
+      "secondary_emotion": "Playful/Silly",
+      "intensity": "medium",
+      "volume": "soft",
+      "emphasis": [
+        "quiet",
+        "slips"
+      ],
+      "note": "Comedic suspense build-up: the hushed 'just when it's quiet' sets up the fart punchline in the next chunk. Draw out the trailing ellipsis for the beat before the gross-out payoff.",
+      "verse": {
+        "syllables_per_line": [
+          10
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "tt-012",
+      "text": "A fart…",
+      "emotion": "Humorous/Funny",
+      "secondary_emotion": "Playful/Silly",
+      "intensity": "medium",
+      "volume": "soft",
+      "emphasis": [
+        "fart"
+      ],
+      "type": "sound_effect",
+      "speaker": "the troublemaker",
+      "humor_type": "Bodily/Gross-out (Scatological)",
+      "note": "Standalone chunk that IS the sound itself — bodily/gross-out gag. Trailing ellipsis calls for a mischievous, sneaky beat; deliver as the sound landing with comic timing rather than narrator commentary.",
+      "verse": {
+        "syllables_per_line": [
+          2
+        ],
+        "meter_break": false,
+        "rhyme_role": "closes_couplet",
+        "rhymes_with_chunk": "tt-010"
+      }
+    },
+    {
+      "id": "tt-013",
+      "text": "He hides near the lunchroom when he needs a rest.",
+      "emotion": "Neutral/Narrator",
+      "secondary_emotion": "Playful/Silly",
+      "intensity": "low",
+      "volume": "normal",
+      "scene_refs": [
+        {
+          "scene_id": "toms-hideout-invaded",
+          "role": "setup"
+        }
+      ],
+      "note": "Light mischievous storytelling beat setting up Tom's hideout; keep it easygoing with a playful undertone.",
+      "verse": {
+        "syllables_per_line": [
+          11
+        ],
+        "meter_break": false,
+        "rhyme_role": "opens_couplet",
+        "rhymes_with_chunk": "tt-014"
+      }
+    },
+    {
+      "id": "tt-014",
+      "text": "He sneaks in a snack to his favorite nest.",
+      "emotion": "Playful/Silly",
+      "secondary_emotion": "Mysterious/Suspenseful",
+      "intensity": "medium",
+      "volume": "soft",
+      "emphasis": [
+        "sneaks"
+      ],
+      "scene_refs": [
+        {
+          "scene_id": "toms-hideout-invaded",
+          "role": "build"
+        }
+      ],
+      "illustration_inference": {
+        "implied_scene": "a nook where he hides his graphic novels",
+        "source": "author"
+      },
+      "note": "Mischievous sneaking-around beat — hushed, conspiratorial delivery fits Tom hiding away with a snack.",
+      "verse": {
+        "syllables_per_line": [
+          11
+        ],
+        "meter_break": false,
+        "rhyme_role": "closes_couplet",
+        "rhymes_with_chunk": "tt-013"
+      }
+    },
+    {
+      "id": "tt-015",
+      "text": "But back out at recess, the prankster prevails.",
+      "emotion": "Playful/Silly",
+      "secondary_emotion": "Mysterious/Suspenseful",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "prankster",
+        "prevails"
+      ],
+      "note": "Rhyming line building the mischievous 'prankster' turkey motif; playful with a hint of sneaky buildup toward the next lines. Comic disruptor, not a real threat.",
+      "verse": {
+        "syllables_per_line": [
+          11
+        ],
+        "meter_break": false,
+        "rhyme_role": "opens_couplet",
+        "rhymes_with_chunk": "tt-016"
+      }
+    },
+    {
+      "id": "tt-016",
+      "text": "When no one is looking, he lures in the tails.",
+      "emotion": "Mysterious/Suspenseful",
+      "secondary_emotion": "Playful/Silly",
+      "intensity": "medium",
+      "volume": "soft",
+      "emphasis": [
+        "no one is looking"
+      ],
+      "illustration_inference": {
+        "implied_scene": "Tom lays out something from his lunch for a rafter of turkeys lingering near the school",
+        "source": "author"
+      },
+      "note": "Sneaky, conspiratorial delivery — the prankster acting covertly ('when no one is looking'); playful mischief rather than real menace, so kept light and hushed.",
+      "verse": {
+        "syllables_per_line": [
+          11
+        ],
+        "meter_break": false,
+        "rhyme_role": "closes_couplet",
+        "rhymes_with_chunk": "tt-015"
+      }
+    },
+    {
+      "id": "tt-017",
+      "text": "They shake their caruncles. They waggle their wattles.",
+      "emotion": "Playful/Silly",
+      "secondary_emotion": "Excited/Energetic",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "caruncles",
+        "wattles"
+      ],
+      "humor_type": "Incongruity/Absurd",
+      "scene_refs": [
+        {
+          "scene_id": "turkey-anatomy-vocab",
+          "role": "setup"
+        }
+      ],
+      "note": "Whimsical rhyming turkey-anatomy vocab; bouncy delivery on the silly words, part of a comic build-up.",
+      "verse": {
+        "syllables_per_line": [
+          12
+        ],
+        "meter_break": false,
+        "rhyme_role": "opens_couplet",
+        "rhymes_with_chunk": "tt-018"
+      }
+    },
+    {
+      "id": "tt-018",
+      "text": "Their snoods flop around when they increase their throttles.",
+      "emotion": "Playful/Silly",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "snoods",
+        "throttles"
+      ],
+      "humor_type": "Incongruity/Absurd",
+      "scene_refs": [
+        {
+          "scene_id": "turkey-anatomy-vocab",
+          "role": "build"
+        }
+      ],
+      "note": "Rhyming vocab-play line (snoods/throttles) — bouncy whimsical delivery lands the internal rhyme and silly turkey imagery.",
+      "verse": {
+        "syllables_per_line": [
+          12
+        ],
+        "meter_break": false,
+        "rhyme_role": "closes_couplet",
+        "rhymes_with_chunk": "tt-017"
+      }
+    },
+    {
+      "id": "tt-019",
+      "text": "And Tom can’t stop laughing. “That wattle! That chin!”",
+      "emotion": "Humorous/Funny",
+      "secondary_emotion": "Joyful/Happy",
+      "intensity": "high",
+      "volume": "loud",
+      "emphasis": [
+        "wattle",
+        "chin"
+      ],
+      "humor_type": "Incongruity/Absurd",
+      "scene_refs": [
+        {
+          "scene_id": "turkey-anatomy-vocab",
+          "role": "payoff"
+        }
+      ],
+      "illustration_inference": {
+        "implied_scene": "A boy named Tom doubles over with laughter, clutching his belly, as a crowd of comically strutting turkeys shake their wobbling wattles and floppy snoods right in front of his delighted face.",
+        "source": "inferred",
+        "visual_energy": "high"
+      },
+      "note": "Tom is helpless with laughter — delivery should carry a breathless, giggling quality on the exclamations.",
+      "verse": {
+        "syllables_per_line": [
+          12
+        ],
+        "meter_break": false,
+        "rhyme_role": "opens_couplet",
+        "rhymes_with_chunk": "tt-020"
+      }
+    },
+    {
+      "id": "tt-020",
+      "text": "That full flock of turkeys is forceful. They’re in!",
+      "emotion": "Excited/Energetic",
+      "intensity": "high",
+      "volume": "loud",
+      "emphasis": [
+        "forceful",
+        "in"
+      ],
+      "note": "Playful chaotic energy of the turkeys joining in; sparse line but scene implies a big burst of action — lean into energetic delivery.",
+      "verse": {
+        "syllables_per_line": [
+          12
+        ],
+        "meter_break": false,
+        "rhyme_role": "closes_couplet",
+        "rhymes_with_chunk": "tt-019"
+      }
+    },
+    {
+      "id": "tt-021",
+      "text": "They run in a blur. There’s a head; there’s a neck.",
+      "emotion": "Excited/Energetic",
+      "secondary_emotion": "Playful/Silly",
+      "intensity": "high",
+      "volume": "loud",
+      "emphasis": [
+        "blur"
+      ],
+      "note": "Chaotic turkey stampede — rapid, breathless delivery matching the frenetic action; comic chaos not menace",
+      "verse": {
+        "syllables_per_line": [
+          13
+        ],
+        "meter_break": false,
+        "rhyme_role": "opens_couplet",
+        "rhymes_with_chunk": "tt-022"
+      }
+    },
+    {
+      "id": "tt-022",
+      "text": "They fly and they cruise and they jump and they peck.",
+      "emotion": "Excited/Energetic",
+      "intensity": "high",
+      "volume": "loud",
+      "emphasis": [
+        "fly",
+        "cruise",
+        "jump",
+        "peck"
+      ],
+      "note": "Rapid-fire list of verbs = escalating comic chaos; build momentum through each action for the turkey rampage.",
+      "verse": {
+        "syllables_per_line": [
+          11
+        ],
+        "meter_break": false,
+        "rhyme_role": "closes_couplet",
+        "rhymes_with_chunk": "tt-021"
+      }
+    },
+    {
+      "id": "tt-023",
+      "text": "They knock over trash cans. They gobble at Frannie.",
+      "emotion": "Excited/Energetic",
+      "secondary_emotion": "Playful/Silly",
+      "intensity": "high",
+      "volume": "loud",
+      "emphasis": [
+        "gobble"
+      ],
+      "illustration_inference": {
+        "implied_scene": "A flock of frantic birds tips over clattering trash cans and swarms a wide-eyed, arms-flailing girl named Frannie as garbage flies everywhere",
+        "source": "inferred",
+        "visual_energy": "high"
+      },
+      "note": "Chaotic turkey mayhem played for comedy, not menace; keep it fast and rowdy rather than threatening. Touches book-level antagonist ambiguity (turkeys as comic disruptors vs. real threat); read as comedic chaos.",
+      "flag_for_review": true,
+      "verse": {
+        "syllables_per_line": [
+          12
+        ],
+        "meter_break": false,
+        "rhyme_role": "opens_couplet",
+        "rhymes_with_chunk": "tt-024"
+      }
+    },
+    {
+      "id": "tt-024",
+      "text": "They trample the bookshelves. Their speed is uncanny.",
+      "emotion": "Excited/Energetic",
+      "intensity": "high",
+      "volume": "loud",
+      "emphasis": [
+        "uncanny"
+      ],
+      "note": "Comic chaos of the turkeys wrecking things — energetic and fast, not menacing. Touches the book-level antagonist ambiguity (turkeys as chaos vs. threat); reading as comic disruptor. Turkeys are the recurring disruptor flagged at book level — treated here as comic chaos, not a genuine threat; human should confirm consistent handling.",
+      "flag_for_review": true,
+      "verse": {
+        "syllables_per_line": [
+          12
+        ],
+        "meter_break": false,
+        "rhyme_role": "closes_couplet",
+        "rhymes_with_chunk": "tt-023"
+      }
+    },
+    {
+      "id": "tt-025",
+      "text": "Tom takes in the scene with a satisfied grin",
+      "emotion": "Playful/Silly",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "satisfied"
+      ],
+      "note": "Tom's mischievous pride at the chaos he caused — cheeky, self-satisfied delivery, not genuine conflict.",
+      "verse": {
+        "syllables_per_line": [
+          11
+        ],
+        "meter_break": false,
+        "rhyme_role": "opens_couplet",
+        "rhymes_with_chunk": "tt-026"
+      }
+    },
+    {
+      "id": "tt-026",
+      "text": "at the chaos he started when he let them in.",
+      "emotion": "Playful/Silly",
+      "secondary_emotion": "Humorous/Funny",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "chaos"
+      ],
+      "humor_type": "Mischief/Defiance",
+      "note": "Continuation of Tom's satisfied grin — mischievous delight at the chaos he caused; comedic disruptor energy, not menace.",
+      "verse": {
+        "syllables_per_line": [
+          12
+        ],
+        "meter_break": false,
+        "rhyme_role": "closes_couplet",
+        "rhymes_with_chunk": "tt-025"
+      }
+    },
+    {
+      "id": "tt-027",
+      "text": "But…",
+      "emotion": "Mysterious/Suspenseful",
+      "intensity": "medium",
+      "volume": "soft",
+      "note": "A drawn-out setup beat — trailing 'But…' builds tension before the turn to chaos in the next chunks. Hold the pause.",
+      "verse": {
+        "syllables_per_line": [
+          1
+        ],
+        "meter_break": true,
+        "rhyme_role": "standalone_interruption"
+      }
+    },
+    {
+      "id": "tt-028",
+      "text": "The turkeys blast by him and eat one kid’s lunch.",
+      "emotion": "Excited/Energetic",
+      "secondary_emotion": "Surprised/Astonished",
+      "intensity": "high",
+      "volume": "loud",
+      "emphasis": [
+        "blast"
+      ],
+      "note": "Chaotic turkey mayhem — comedic/energetic disruptor, not menacing; touches the book-level antagonist ambiguity, so read as chaos rather than threat. Touches book-level unresolved antagonist ambiguity (turkeys as comic disruptors vs real threat); tagged as energetic chaos per less-extreme default.",
+      "flag_for_review": true,
+      "verse": {
+        "syllables_per_line": [
+          12
+        ],
+        "meter_break": false,
+        "rhyme_role": "opens_couplet",
+        "rhymes_with_chunk": "tt-029"
+      }
+    },
+    {
+      "id": "tt-029",
+      "text": "They gulp up the pie and the farm-fresh corn crunch.",
+      "emotion": "Excited/Energetic",
+      "secondary_emotion": "Playful/Silly",
+      "intensity": "medium",
+      "volume": "loud",
+      "emphasis": [
+        "gulp"
+      ],
+      "note": "Comedic chaos of turkeys devouring everything; rhyming build-up, keep energy fast and bouncy rather than menacing.",
+      "verse": {
+        "syllables_per_line": [
+          11
+        ],
+        "meter_break": false,
+        "rhyme_role": "closes_couplet",
+        "rhymes_with_chunk": "tt-028"
+      }
+    },
+    {
+      "id": "tt-030",
+      "text": "They gobble up all of the tot casseroles.",
+      "emotion": "Excited/Energetic",
+      "secondary_emotion": "Humorous/Funny",
+      "intensity": "high",
+      "volume": "loud",
+      "emphasis": [
+        "all"
+      ],
+      "humor_type": "Wordplay/Verbal Wit",
+      "note": "Comic chaos of turkeys devouring everything — rhyming romp energy, played for laughs not real menace. Touches the book-level antagonist ambiguity but text is clearly comedic chaos. Touches book-level antagonist ambiguity (are the turkeys a real threat or comic disruptors); text reads comedic, tagged accordingly for consistency.",
+      "flag_for_review": true,
+      "verse": {
+        "syllables_per_line": [
+          12
+        ],
+        "meter_break": false,
+        "rhyme_role": "opens_couplet",
+        "rhymes_with_chunk": "tt-031"
+      }
+    },
+    {
+      "id": "tt-031",
+      "text": "They even invade little kids' cubbyholes.",
+      "emotion": "Excited/Energetic",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "even"
+      ],
+      "note": "Turkey chaos escalating - the 'even' amplifies the comic invasion. Disruptors are chaotic/comic rather than menacing here. Touches book-level ambiguity about the turkey antagonists; chose comedic/energetic reading over menacing per default.",
+      "flag_for_review": true,
+      "verse": {
+        "syllables_per_line": [
+          12
+        ],
+        "meter_break": false,
+        "rhyme_role": "closes_couplet",
+        "rhymes_with_chunk": "tt-030"
+      }
+    },
+    {
+      "id": "tt-032",
+      "text": "Tom's art room is trampled. The paint tubes are splat.",
+      "emotion": "Excited/Energetic",
+      "secondary_emotion": "Humorous/Funny",
+      "intensity": "medium",
+      "volume": "loud",
+      "emphasis": [
+        "splat"
+      ],
+      "humor_type": "Slapstick/Physical Comedy",
+      "scene_refs": [
+        {
+          "scene_id": "classroom-subjects-mirror",
+          "role": "climax"
+        }
+      ],
+      "note": "Comic chaos climax — the rhyming 'splat' is a punchy sound-word to land; destruction played for energetic laughs, not real distress",
+      "verse": {
+        "syllables_per_line": [
+          11
+        ],
+        "meter_break": false,
+        "rhyme_role": "opens_couplet",
+        "rhymes_with_chunk": "tt-033"
+      }
+    },
+    {
+      "id": "tt-033",
+      "text": "And music is dead ‘cause the drums are now flat.",
+      "emotion": "Humorous/Funny",
+      "secondary_emotion": "Excited/Energetic",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "flat"
+      ],
+      "humor_type": "Wordplay/Verbal Wit",
+      "scene_refs": [
+        {
+          "scene_id": "classroom-subjects-mirror",
+          "role": "climax"
+        }
+      ],
+      "note": "'Flat' is a musical pun (drums flattened/out of tune) — land it with a comedic beat; part of the chaotic turkey-invasion climax so keep energy up.",
+      "verse": {
+        "syllables_per_line": [
+          11
+        ],
+        "meter_break": false,
+        "rhyme_role": "closes_couplet",
+        "rhymes_with_chunk": "tt-032"
+      }
+    },
+    {
+      "id": "tt-034",
+      "text": "The math tests are crumpled. They can’t read the scores.",
+      "emotion": "Angry/Frustrated",
+      "secondary_emotion": "Sad/Melancholic",
+      "intensity": "high",
+      "volume": "loud",
+      "emphasis": [
+        "crumpled",
+        "can't"
+      ],
+      "scene_refs": [
+        {
+          "scene_id": "classroom-subjects-mirror",
+          "role": "climax"
+        }
+      ],
+      "note": "Part of the escalating trampled-classroom climax; sparse rhyming line carries the dismay of destruction across each subject, so lean into the frustrated/dismayed energy the scene implies.",
+      "verse": {
+        "syllables_per_line": [
+          12
+        ],
+        "meter_break": false,
+        "rhyme_role": "opens_couplet",
+        "rhymes_with_chunk": "tt-035"
+      }
+    },
+    {
+      "id": "tt-035",
+      "text": "A science experiment’s blown off the doors.",
+      "emotion": "Excited/Energetic",
+      "secondary_emotion": "Humorous/Funny",
+      "intensity": "high",
+      "volume": "loud",
+      "emphasis": [
+        "blown"
+      ],
+      "humor_type": "Slapstick/Physical Comedy",
+      "scene_refs": [
+        {
+          "scene_id": "classroom-subjects-mirror",
+          "role": "climax"
+        }
+      ],
+      "note": "Climax of the escalating classroom-chaos list — comic exaggeration of the turkeys' destruction; play the mayhem big and energetic rather than genuinely alarming.",
+      "verse": {
+        "syllables_per_line": [
+          12
+        ],
+        "meter_break": false,
+        "rhyme_role": "closes_couplet",
+        "rhymes_with_chunk": "tt-034"
+      }
+    },
+    {
+      "id": "tt-036",
+      "text": "Then just at that moment, like pulled by a hook,",
+      "emotion": "Mysterious/Suspenseful",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "Then",
+        "that moment"
+      ],
+      "note": "Build-up line leading into a reveal — deliberate, anticipatory delivery setting up the next beat.",
+      "verse": {
+        "syllables_per_line": [
+          11
+        ],
+        "meter_break": false,
+        "rhyme_role": "opens_couplet",
+        "rhymes_with_chunk": "tt-037"
+      }
+    },
+    {
+      "id": "tt-037",
+      "text": "The turkeys bob right into Tom’s favorite nook.",
+      "emotion": "Excited/Energetic",
+      "secondary_emotion": "Mysterious/Suspenseful",
+      "intensity": "high",
+      "volume": "loud",
+      "emphasis": [
+        "turkeys",
+        "favorite nook"
+      ],
+      "scene_refs": [
+        {
+          "scene_id": "toms-hideout-invaded",
+          "role": "climax"
+        }
+      ],
+      "illustration_inference": {
+        "implied_scene": "A flock of wide-eyed turkeys comes strutting and bobbing through the blasted-open classroom door into Tom's cozy reading corner, scattering books, cushions, and papers as Tom watches in alarm.",
+        "source": "inferred",
+        "visual_energy": "high"
+      },
+      "note": "Climax beat — chaotic turkeys invading Tom's safe space; sparse line, lean into the high energy the scene implies rather than the flat words.",
+      "verse": {
+        "syllables_per_line": [
+          13
+        ],
+        "meter_break": false,
+        "rhyme_role": "closes_couplet",
+        "rhymes_with_chunk": "tt-036"
+      }
+    },
+    {
+      "id": "tt-038",
+      "text": "Tom’s eyes bulge out wide. “Help! Hurry! Zoom-zoom!”",
+      "emotion": "Fearful/Scared",
+      "secondary_emotion": "Excited/Energetic",
+      "intensity": "high",
+      "volume": "loud",
+      "emphasis": [
+        "Help",
+        "Hurry",
+        "Zoom-zoom"
+      ],
+      "illustration_inference": {
+        "implied_scene": "Tom stands panic-stricken in his classroom nook, eyes popping wide and arms flailing, shouting for help as a flock of unruly turkeys swarms and flaps around him knocking things over.",
+        "source": "inferred",
+        "visual_energy": "high"
+      },
+      "note": "Comedic panic — Tom is alarmed but the tone is chaotic/frantic rather than genuine dread; play the bulging eyes and 'Zoom-zoom' with energetic urgency.",
+      "verse": {
+        "syllables_per_line": [
+          11
+        ],
+        "meter_break": false,
+        "rhyme_role": "opens_couplet",
+        "rhymes_with_chunk": "tt-039"
+      }
+    },
+    {
+      "id": "tt-039",
+      "text": "He must stop the chaos inside his classroom.",
+      "emotion": "Excited/Energetic",
+      "secondary_emotion": "Nervous/Worried",
+      "intensity": "high",
+      "volume": "normal",
+      "emphasis": [
+        "stop",
+        "chaos"
+      ],
+      "note": "Action-urgency narration mid-chaos; sparse line carries the scene's rising panic energy about the turkeys disrupting the classroom",
+      "verse": {
+        "syllables_per_line": [
+          11
+        ],
+        "meter_break": false,
+        "rhyme_role": "closes_couplet",
+        "rhymes_with_chunk": "tt-038"
+      }
+    },
+    {
+      "id": "tt-040",
+      "text": "Tom cannot control them. He raises his fists.",
+      "emotion": "Angry/Frustrated",
+      "secondary_emotion": "Nervous/Worried",
+      "intensity": "high",
+      "volume": "loud",
+      "emphasis": [
+        "cannot"
+      ],
+      "note": "Tom is overwhelmed by classroom chaos - frustration edged with helpless worry; keep it comic-energetic rather than genuinely angry, matching the book's chaotic-disruptor register",
+      "verse": {
+        "syllables_per_line": [
+          11
+        ],
+        "meter_break": false,
+        "rhyme_role": "opens_couplet",
+        "rhymes_with_chunk": "tt-041"
+      }
+    },
+    {
+      "id": "tt-041",
+      "text": "The kids try to stop them by linking their wrists.",
+      "emotion": "Excited/Energetic",
+      "secondary_emotion": "Nervous/Worried",
+      "intensity": "high",
+      "volume": "loud",
+      "emphasis": [
+        "linking their wrists"
+      ],
+      "note": "Action beat amid escalating turkey chaos; kids scrambling to hold the line — energetic and urgent, not truly frightening.",
+      "verse": {
+        "syllables_per_line": [
+          11
+        ],
+        "meter_break": false,
+        "rhyme_role": "closes_couplet",
+        "rhymes_with_chunk": "tt-040"
+      }
+    },
+    {
+      "id": "tt-042",
+      "text": "Sounds bounce ‘round the classroom - a gobbledy-roar!",
+      "emotion": "Excited/Energetic",
+      "intensity": "high",
+      "volume": "loud",
+      "emphasis": [
+        "gobbledy-roar"
+      ],
+      "note": "Chaotic action beat as turkeys overrun the room; the coined word 'gobbledy-roar' is the playful punch of the line and should be belted with energy, not menace.",
+      "verse": {
+        "syllables_per_line": [
+          11
+        ],
+        "meter_break": false,
+        "rhyme_role": "opens_couplet",
+        "rhymes_with_chunk": "tt-044"
+      }
+    },
+    {
+      "id": "tt-043",
+      "text": "The turkeys take over.",
+      "emotion": "Excited/Energetic",
+      "secondary_emotion": "Mysterious/Suspenseful",
+      "intensity": "high",
+      "volume": "loud",
+      "emphasis": [
+        "take over"
+      ],
+      "note": "Sparse punchline of the chaotic takeover — a big illustrated turning-point beat; deliver bigger than the four plain words suggest. Comic-chaos energy rather than genuine menace. Touches the book-level unresolved antagonist ambiguity (turkeys as disruptor 'taking over'); tagged as comic/energetic chaos rather than Villainous/Menacing per default, but a human should confirm the turkeys' threat level for consistency.",
+      "flag_for_review": true,
+      "verse": {
+        "syllables_per_line": [
+          6
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "tt-044",
+      "text": "“It’s our school no more!”",
+      "emotion": "Excited/Energetic",
+      "secondary_emotion": "Angry/Frustrated",
+      "intensity": "high",
+      "volume": "loud",
+      "emphasis": [
+        "no more"
+      ],
+      "speaker": "Turkeys",
+      "illustration_inference": {
+        "implied_scene": "teachers and kids are hiding and crying. One of them says this",
+        "source": "author"
+      },
+      "note": "Triumphant takeover boast by the turkeys. Touches book-level antagonist ambiguity — read as comic/chaotic gloating rather than genuinely menacing. Turkey antagonist line could be read as Villainous/Menacing; per book-level unresolved flag, tagged as comic/energetic gloating pending human decision on antagonist type.",
+      "flag_for_review": true,
+      "verse": {
+        "syllables_per_line": [
+          7
+        ],
+        "meter_break": false,
+        "rhyme_role": "closes_couplet",
+        "rhymes_with_chunk": "tt-042"
+      }
+    },
+    {
+      "id": "tt-045",
+      "text": "The rafter of turkeys fluffs snoods and their chests.",
+      "emotion": "Playful/Silly",
+      "secondary_emotion": "Humorous/Funny",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "snoods"
+      ],
+      "humor_type": "Incongruity/Absurd",
+      "scene_refs": [
+        {
+          "scene_id": "turkey-anatomy-vocab",
+          "role": "callback"
+        }
+      ],
+      "note": "Callback to turkey-anatomy-vocab; 'rafter' (collective noun) and 'snoods' are the dry vocab payoff — deliver the fancy words with relish. Turkeys puffing up as comic intimidation display. Turkeys puffing up chests reads as a dominance/threat display — touches the book-level antagonist ambiguity; tagged comedic/playful per default, human should confirm whether these turkeys are a real threat.",
+      "flag_for_review": true,
+      "verse": {
+        "syllables_per_line": [
+          11
+        ],
+        "meter_break": false,
+        "rhyme_role": "opens_couplet",
+        "rhymes_with_chunk": "tt-046"
+      }
+    },
+    {
+      "id": "tt-046",
+      "text": "The kids must go up against their greatest test.",
+      "emotion": "Excited/Energetic",
+      "secondary_emotion": "Mysterious/Suspenseful",
+      "intensity": "high",
+      "volume": "normal",
+      "emphasis": [
+        "greatest test"
+      ],
+      "note": "Dramatic buildup line raising the stakes before the turkeys' challenge; sparse prose but the scene is a big confrontation, so lean into anticipation and rising tension.",
+      "verse": {
+        "syllables_per_line": [
+          11
+        ],
+        "meter_break": false,
+        "rhyme_role": "closes_couplet",
+        "rhymes_with_chunk": "tt-045"
+      }
+    },
+    {
+      "id": "tt-047",
+      "text": "Gobble gobble gobble gobble gobble!!!!!",
+      "emotion": "Excited/Energetic",
+      "secondary_emotion": "Villainous/Menacing",
+      "intensity": "high",
+      "volume": "shout",
+      "type": "sound_effect",
+      "speaker": "Turkeys",
+      "humor_type": "Running Gag/Callback",
+      "scene_refs": [
+        {
+          "scene_id": "gobble-chant-motif",
+          "role": "setup"
+        }
+      ],
+      "illustration_inference": {
+        "implied_scene": "turkeys are winning",
+        "source": "author"
+      },
+      "note": "Turkey gobble chant, setup of the recurring gobble-chant motif. Read as big chaotic energy rather than a genuine threat per the book-level antagonist ambiguity. Touches the unresolved book-level antagonist ambiguity (turkeys as comic disruptors vs genuine threat); secondary menacing color tentative pending human decision.",
+      "flag_for_review": true,
+      "verse": {
+        "syllables_per_line": [
+          10
+        ],
+        "meter_break": true,
+        "rhyme_role": "standalone_interruption"
+      }
+    },
+    {
+      "id": "tt-048",
+      "text": "Tom points to Annette, and to Juan, Eleanor.",
+      "emotion": "Excited/Energetic",
+      "secondary_emotion": "Mysterious/Suspenseful",
+      "intensity": "high",
+      "volume": "normal",
+      "illustration_inference": {
+        "implied_scene": "Tom, arm outstretched and finger pointing, quickly assigns positions to Annette, Juan, and Eleanor, who stand alert and ready as the group huddles to face the gobbling threat.",
+        "source": "inferred",
+        "visual_energy": "medium"
+      },
+      "note": "Sparse action line during a tense mission/plan moment ('greatest test'); Tom silently directing the team — read with focused, coordinated energy rather than flat narration",
+      "verse": {
+        "syllables_per_line": [
+          11
+        ],
+        "meter_break": false,
+        "rhyme_role": "opens_couplet",
+        "rhymes_with_chunk": "tt-049"
+      }
+    },
+    {
+      "id": "tt-049",
+      "text": "He motions to them to prop open the door.",
+      "emotion": "Excited/Energetic",
+      "intensity": "medium",
+      "volume": "normal",
+      "note": "Part of a quick sequence of Tom silently directing kids into position — building anticipation; keep it brisk and purposeful.",
+      "verse": {
+        "syllables_per_line": [
+          11
+        ],
+        "meter_break": false,
+        "rhyme_role": "closes_couplet",
+        "rhymes_with_chunk": "tt-048"
+      }
+    },
+    {
+      "id": "tt-050",
+      "text": "He waves over Kevin. He whistles to Nate.",
+      "emotion": "Mysterious/Suspenseful",
+      "intensity": "medium",
+      "volume": "soft",
+      "illustration_inference": {
+        "implied_scene": "Tom, mid-gesture, sweeps one arm to summon Kevin while pursing his lips in a sharp whistle toward Nate, the two boys scrambling to answer from across the scene as the others hold the propped door.",
+        "source": "inferred",
+        "visual_energy": "high"
+      },
+      "note": "Part of a hushed, stealthy plan being coordinated; sparse action line but the scene implies quiet, sneaky teamwork.",
+      "verse": {
+        "syllables_per_line": [
+          11
+        ],
+        "meter_break": false,
+        "rhyme_role": "opens_couplet",
+        "rhymes_with_chunk": "tt-051"
+      }
+    },
+    {
+      "id": "tt-051",
+      "text": "He whispers to Nettie to stand by the gate.",
+      "emotion": "Mysterious/Suspenseful",
+      "secondary_emotion": "Excited/Energetic",
+      "intensity": "medium",
+      "volume": "soft",
+      "emphasis": [
+        "whispers"
+      ],
+      "illustration_inference": {
+        "implied_scene": "A conspiratorial ringleader leans in close, one finger to his lips, murmuring instructions to Nettie who is positioned at an open gate while Kevin and Nate wait nearby by the propped-open door.",
+        "source": "inferred",
+        "visual_energy": "medium"
+      },
+      "note": "Conspiratorial plan-setting; the word 'whispers' cues a hushed, sneaky delivery even though this is narration describing the action, not dialogue.",
+      "verse": {
+        "syllables_per_line": [
+          11
+        ],
+        "meter_break": false,
+        "rhyme_role": "closes_couplet",
+        "rhymes_with_chunk": "tt-050"
+      }
+    },
+    {
+      "id": "tt-052",
+      "text": "He dons some dropped feathers. He struts and he preens.",
+      "emotion": "Playful/Silly",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "struts",
+        "preens"
+      ],
+      "note": "Comic disguise-and-strut moment; bouncy, whimsical energy matching the turkey-mimicry setup",
+      "verse": {
+        "syllables_per_line": [
+          11
+        ],
+        "meter_break": false,
+        "rhyme_role": "opens_couplet",
+        "rhymes_with_chunk": "tt-053"
+      }
+    },
+    {
+      "id": "tt-053",
+      "text": "He gobbles. He wobbles. He stalks and careens.",
+      "emotion": "Playful/Silly",
+      "secondary_emotion": "Excited/Energetic",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "gobbles",
+        "wobbles"
+      ],
+      "illustration_inference": {
+        "implied_scene": "A boy costumed in stuck-on turkey feathers throws back his head mid-gobble, arms flapping as he lurches and staggers in an exaggerated turkey strut across the barnyard, Nettie watching from the gate.",
+        "source": "inferred",
+        "visual_energy": "high"
+      },
+      "note": "Narration of Tom acting out a turkey disguise — bouncy, exaggerated verbs; deliver with whimsical energy, not as an actual gobble sound effect.",
+      "verse": {
+        "syllables_per_line": [
+          11
+        ],
+        "meter_break": false,
+        "rhyme_role": "closes_couplet",
+        "rhymes_with_chunk": "tt-052"
+      }
+    },
+    {
+      "id": "tt-054",
+      "text": "He stuffs up his pockets with corn that he found.",
+      "emotion": "Playful/Silly",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "stuffs"
+      ],
+      "note": "Part of a bouncy sequence of the character mimicking turkey antics; keep whimsical, mischievous energy.",
+      "verse": {
+        "syllables_per_line": [
+          11
+        ],
+        "meter_break": false,
+        "rhyme_role": "opens_couplet",
+        "rhymes_with_chunk": "tt-055"
+      }
+    },
+    {
+      "id": "tt-055",
+      "text": "He does a quick dance, shaking tailfeathers ‘round.",
+      "emotion": "Playful/Silly",
+      "secondary_emotion": "Excited/Energetic",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "dance",
+        "shaking"
+      ],
+      "note": "Bouncy, whimsical turkey-dance beat — lean into the physical comedy of shaking tailfeathers.",
+      "verse": {
+        "syllables_per_line": [
+          11
+        ],
+        "meter_break": false,
+        "rhyme_role": "closes_couplet",
+        "rhymes_with_chunk": "tt-054"
+      }
+    },
+    {
+      "id": "tt-056",
+      "text": "He waves to his friends, and they all form a vee.",
+      "emotion": "Excited/Energetic",
+      "secondary_emotion": "Playful/Silly",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "vee"
+      ],
+      "illustration_inference": {
+        "implied_scene": "the kids have dressed to look like turkeys using Thanksgiving wall art",
+        "source": "author"
+      },
+      "note": "Action beat as Tom rallies his friends into formation; sparse rhyming line carries more energy than the bare words suggest.",
+      "verse": {
+        "syllables_per_line": [
+          11
+        ],
+        "meter_break": false,
+        "rhyme_role": "opens_couplet",
+        "rhymes_with_chunk": "tt-057"
+      }
+    },
+    {
+      "id": "tt-057",
+      "text": "Tom whispers, “We got this. Now, just follow me.”",
+      "emotion": "Calm/Soothing",
+      "secondary_emotion": "Excited/Energetic",
+      "intensity": "medium",
+      "volume": "whisper",
+      "emphasis": [
+        "got"
+      ],
+      "speaker": "Tom",
+      "illustration_inference": {
+        "implied_scene": "Tom the turkey at the front of a V-formation of turkey friends, leaning in with a confident whisper and a reassuring wingtip gesture as the others watch him nervously, poised to take off across an autumn sky",
+        "source": "inferred",
+        "visual_energy": "medium"
+      },
+      "note": "Whispered pep-talk reassurance right before the big group cheer — quiet but confident, riding a build of anticipation.",
+      "verse": {
+        "syllables_per_line": [
+          11
+        ],
+        "meter_break": false,
+        "rhyme_role": "closes_couplet",
+        "rhymes_with_chunk": "tt-056"
+      }
+    },
+    {
+      "id": "tt-058",
+      "text": "Gobble Gobble Gobble Gobble Gobble Gobble!!!",
+      "emotion": "Excited/Energetic",
+      "intensity": "high",
+      "volume": "shout",
+      "type": "sound_effect",
+      "speaker": "Tom and the kids",
+      "humor_type": "Running Gag/Callback",
+      "scene_refs": [
+        {
+          "scene_id": "gobble-chant-motif",
+          "role": "build"
+        }
+      ],
+      "illustration_inference": {
+        "implied_scene": "now the kids are gobbling too",
+        "source": "author"
+      },
+      "note": "Whole chunk is the gobble chant itself — a rallying turkey call led by Tom, matching the kids' hooting/shouting that follows; loud and high-energy per the '!!!'",
+      "verse": {
+        "syllables_per_line": [
+          12
+        ],
+        "meter_break": true,
+        "rhyme_role": "standalone_interruption"
+      }
+    },
+    {
+      "id": "tt-059",
+      "text": "The kids hoot, and they scoot, and they whistle and shout!",
+      "emotion": "Excited/Energetic",
+      "secondary_emotion": "Playful/Silly",
+      "intensity": "high",
+      "volume": "loud",
+      "emphasis": [
+        "hoot",
+        "scoot",
+        "whistle",
+        "shout"
+      ],
+      "note": "Rhyming action line — bouncy, boisterous kid energy; narrator carries the chaos of the group.",
+      "verse": {
+        "syllables_per_line": [
+          12
+        ],
+        "meter_break": false,
+        "rhyme_role": "opens_couplet",
+        "rhymes_with_chunk": "tt-060"
+      }
+    },
+    {
+      "id": "tt-060",
+      "text": "They run, and they flap their small arms all about.",
+      "emotion": "Excited/Energetic",
+      "secondary_emotion": "Playful/Silly",
+      "intensity": "high",
+      "volume": "loud",
+      "emphasis": [
+        "run",
+        "flap"
+      ],
+      "note": "Continues the chaotic, high-energy chase action of the kids from tt-059; sparse line but scene implies big physical energy.",
+      "verse": {
+        "syllables_per_line": [
+          11
+        ],
+        "meter_break": false,
+        "rhyme_role": "closes_couplet",
+        "rhymes_with_chunk": "tt-059"
+      }
+    },
+    {
+      "id": "tt-061",
+      "text": "They raid their own lockers of all of their snacks.",
+      "emotion": "Excited/Energetic",
+      "secondary_emotion": "Playful/Silly",
+      "intensity": "high",
+      "volume": "loud",
+      "emphasis": [
+        "raid",
+        "all"
+      ],
+      "note": "Part of a chaotic, high-energy chase sequence; sparse line but scene implies frenzied kid activity.",
+      "verse": {
+        "syllables_per_line": [
+          11
+        ],
+        "meter_break": false,
+        "rhyme_role": "opens_couplet",
+        "rhymes_with_chunk": "tt-062"
+      }
+    },
+    {
+      "id": "tt-062",
+      "text": "And lead those fat gobblers by laying down tracks.",
+      "emotion": "Excited/Energetic",
+      "secondary_emotion": "Playful/Silly",
+      "intensity": "high",
+      "volume": "loud",
+      "emphasis": [
+        "tracks"
+      ],
+      "note": "Action beat mid-chase — kids laying down snack tracks to lead the turkeys; energetic romp, keep pace fast and bouncy.",
+      "verse": {
+        "syllables_per_line": [
+          12
+        ],
+        "meter_break": false,
+        "rhyme_role": "closes_couplet",
+        "rhymes_with_chunk": "tt-061"
+      }
+    },
+    {
+      "id": "tt-063",
+      "text": "Out of the classrooms and straight down the hall.",
+      "emotion": "Excited/Energetic",
+      "intensity": "high",
+      "volume": "loud",
+      "emphasis": [
+        "straight"
+      ],
+      "note": "Action beat mid-chase; sparse rhyme carries high kinetic energy as kids herd turkeys down the hall.",
+      "verse": {
+        "syllables_per_line": [
+          10
+        ],
+        "meter_break": false,
+        "rhyme_role": "opens_couplet",
+        "rhymes_with_chunk": "tt-064"
+      }
+    },
+    {
+      "id": "tt-064",
+      "text": "They drive those ole turkeys, who let out a squall.",
+      "emotion": "Excited/Energetic",
+      "intensity": "high",
+      "volume": "loud",
+      "emphasis": [
+        "squall"
+      ],
+      "note": "Action beat driving the turkey-eviction climax; 'squall' is the turkeys' protesting noise inside the narrated line, so keep it narration but let the word pop.",
+      "verse": {
+        "syllables_per_line": [
+          11
+        ],
+        "meter_break": false,
+        "rhyme_role": "closes_couplet",
+        "rhymes_with_chunk": "tt-063"
+      }
+    },
+    {
+      "id": "tt-065",
+      "text": "The kids push the turkeys right out of the door…",
+      "emotion": "Excited/Energetic",
+      "intensity": "high",
+      "volume": "loud",
+      "emphasis": [
+        "out"
+      ],
+      "note": "Climactic action beat — kids triumphantly driving the turkeys out; trailing ellipsis builds into the ROAR that follows.",
+      "verse": {
+        "syllables_per_line": [
+          11
+        ],
+        "meter_break": false,
+        "rhyme_role": "opens_couplet",
+        "rhymes_with_chunk": "tt-066"
+      }
+    },
+    {
+      "id": "tt-066",
+      "text": "And then they let out a victorious ROAR!",
+      "emotion": "Excited/Energetic",
+      "secondary_emotion": "Joyful/Happy",
+      "intensity": "high",
+      "volume": "loud",
+      "emphasis": [
+        "ROAR"
+      ],
+      "note": "Triumphant celebration after driving the turkeys out; ROAR is capitalized for a big victorious swell — push volume high but it's a shared kids' cheer, not a threat.",
+      "verse": {
+        "syllables_per_line": [
+          11
+        ],
+        "meter_break": false,
+        "rhyme_role": "closes_couplet",
+        "rhymes_with_chunk": "tt-065"
+      }
+    },
+    {
+      "id": "tt-067",
+      "text": "“Gobble Gobble Gobble Gobble Gobble!!”",
+      "emotion": "Excited/Energetic",
+      "intensity": "high",
+      "volume": "loud",
+      "type": "sound_effect",
+      "speaker": "Turkeys",
+      "humor_type": "Running Gag/Callback",
+      "scene_refs": [
+        {
+          "scene_id": "gobble-chant-motif",
+          "role": "payoff"
+        }
+      ],
+      "note": "Payoff of the gobble-chant running gag; the turkeys' chant as they're driven out — chaotic/comic energy rather than menacing. Keep it big and silly. Touches book-level antagonist ambiguity (turkeys as comic disruptors vs. real threat); tagged comedic/energetic per default guidance.",
+      "flag_for_review": true,
+      "verse": {
+        "syllables_per_line": [
+          10
+        ],
+        "meter_break": true,
+        "rhyme_role": "standalone_interruption"
+      }
+    },
+    {
+      "id": "tt-068",
+      "text": "Now after that morning, things are not the same.",
+      "emotion": "Neutral/Narrator",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "not"
+      ],
+      "scene_refs": [
+        {
+          "scene_id": "terrible-to-turkey-tom",
+          "role": "resolution"
+        }
+      ],
+      "note": "Transitional resolution line — slight weight and forward momentum, a 'things changed forever' beat, but still narrator register.",
+      "verse": {
+        "syllables_per_line": [
+          11
+        ],
+        "meter_break": false,
+        "rhyme_role": "opens_couplet",
+        "rhymes_with_chunk": "tt-069"
+      }
+    },
+    {
+      "id": "tt-069",
+      "text": "Protecting his school is now Turkey Tom’s game.",
+      "emotion": "Excited/Energetic",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "Protecting"
+      ],
+      "scene_refs": [
+        {
+          "scene_id": "terrible-to-turkey-tom",
+          "role": "resolution"
+        }
+      ],
+      "illustration_inference": {
+        "implied_scene": "Turkey Tom, feathers puffed and chest out, stands guard at the schoolhouse door like a stern sentry, wings spread wide to shield a cluster of small animal students behind him.",
+        "source": "inferred",
+        "visual_energy": "medium"
+      },
+      "note": "Resolution beat with rhyming, determined energy — Tom now on a mission to protect his school; playful triumphant tone rather than dark.",
+      "verse": {
+        "syllables_per_line": [
+          12
+        ],
+        "meter_break": false,
+        "rhyme_role": "closes_couplet",
+        "rhymes_with_chunk": "tt-068"
+      }
+    },
+    {
+      "id": "tt-070",
+      "text": "No one’s ever fought harder or kept stricter rule.",
+      "emotion": "Excited/Energetic",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "harder",
+        "stricter"
+      ],
+      "note": "Proud, determined boast about Tom's dedication to protecting his school — energetic and admiring rather than menacing.",
+      "verse": {
+        "syllables_per_line": [
+          13
+        ],
+        "meter_break": false,
+        "rhyme_role": "opens_couplet",
+        "rhymes_with_chunk": "tt-071"
+      }
+    },
+    {
+      "id": "tt-071",
+      "text": "So that learning can happen at Turkey Tom’s school.",
+      "emotion": "Neutral/Narrator",
+      "secondary_emotion": "Joyful/Happy",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "learning"
+      ],
+      "scene_refs": [
+        {
+          "scene_id": "terrible-to-turkey-tom",
+          "role": "resolution"
+        }
+      ],
+      "illustration_inference": {
+        "implied_scene": "Turkey Tom stands proudly guarding the schoolyard gate while young turkey chicks sit calmly at desks reading and writing behind him, the once-chaotic classroom now orderly and focused.",
+        "source": "inferred",
+        "visual_energy": "medium"
+      },
+      "note": "Resolution beat — warm, satisfied tone as the point of Tom's rule-keeping pays off; slight lift on 'learning'",
+      "verse": {
+        "syllables_per_line": [
+          13
+        ],
+        "meter_break": false,
+        "rhyme_role": "closes_couplet",
+        "rhymes_with_chunk": "tt-070"
+      }
+    },
+    {
+      "id": "tt-072",
+      "text": "His teachers would see it, if they only looked,",
+      "emotion": "Neutral/Narrator",
+      "secondary_emotion": "Curious/Wondering",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "if"
+      ],
+      "note": "Setup line building toward the 'finally cooked' pun payoff in the next chunk; deliver with anticipatory lift and hold, don't resolve here.",
+      "verse": {
+        "syllables_per_line": [
+          11
+        ],
+        "meter_break": false,
+        "rhyme_role": "opens_couplet",
+        "rhymes_with_chunk": "tt-073"
+      }
+    },
+    {
+      "id": "tt-073",
+      "text": "that Tom’s wild turkeys are finally cooked!",
+      "emotion": "Humorous/Funny",
+      "secondary_emotion": "Joyful/Happy",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "cooked"
+      ],
+      "humor_type": "Wordplay/Verbal Wit",
+      "scene_refs": [
+        {
+          "scene_id": "terrible-to-turkey-tom",
+          "role": "resolution"
+        }
+      ],
+      "illustration_inference": {
+        "implied_scene": "not literally cooked, but using the current kids’ slang “it’s cooked” and also that his inner “wild turkey” is a bit tamer too",
+        "source": "author"
+      },
+      "note": "Final line and pun payoff — 'cooked' works both as turkeys-tamed and the literal cooking wordplay; give it a small beat before 'cooked' to land the joke.",
+      "verse": {
+        "syllables_per_line": [
+          11
+        ],
+        "meter_break": false,
+        "rhyme_role": "closes_couplet",
+        "rhymes_with_chunk": "tt-072"
+      }
+    }
+  ]
+}

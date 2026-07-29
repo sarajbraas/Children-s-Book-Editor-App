@@ -1,0 +1,1015 @@
+{
+  "title": "Pharaoh Duck",
+  "author": "Sara Braas",
+  "note": "",
+  "book_profile": {
+    "genre": "fiction",
+    "style_era": "contemporary",
+    "narrator_stance": "close, warm, theatrical — full expressive range, big swings encouraged",
+    "emotional_range": {
+      "intensity_ceiling": "high",
+      "volume_ceiling": "shout",
+      "disabled_emotions": [],
+      "favored_humor_types": [
+        "incongruity_absurd",
+        "slapstick_physical",
+        "exaggeration_hyperbole"
+      ]
+    },
+    "verse_form": false,
+    "rhyme_scheme": null,
+    "dominant_meter": null
+  },
+  "scenes": [
+    {
+      "scene_id": "royal-duck-naming-motif",
+      "type": "comedic_motif",
+      "description": "Ava consistently treats an ordinary rescued duckling as Egyptian royalty — 'Pharaoh Duckie,' 'His Majesty,' 'Duck King,' the 'palace lawn,' a 'royal basket,' and a 'court' of neighbor kids. The humor comes from the mismatch between grand, ceremonial language and a tiny mundane hatchling. Deliver these lines with mock-regal grandeur and proclamation cadence throughout; the payoff is Mama's deadpan 'You're funny,' where the reader briefly steps outside the game before Ava returns to it.",
+      "members": [
+        {
+          "chunk_id": "pd-009",
+          "role": "setup"
+        },
+        {
+          "chunk_id": "pd-010",
+          "role": "build"
+        },
+        {
+          "chunk_id": "pd-012",
+          "role": "build"
+        },
+        {
+          "chunk_id": "pd-015",
+          "role": "build"
+        },
+        {
+          "chunk_id": "pd-016",
+          "role": "build"
+        },
+        {
+          "chunk_id": "pd-018",
+          "role": "build"
+        },
+        {
+          "chunk_id": "pd-019",
+          "role": "build"
+        },
+        {
+          "chunk_id": "pd-020",
+          "role": "build"
+        },
+        {
+          "chunk_id": "pd-021",
+          "role": "build"
+        },
+        {
+          "chunk_id": "pd-023",
+          "role": "build"
+        },
+        {
+          "chunk_id": "pd-027",
+          "role": "build"
+        },
+        {
+          "chunk_id": "pd-028",
+          "role": "payoff"
+        },
+        {
+          "chunk_id": "pd-032",
+          "role": "callback"
+        },
+        {
+          "chunk_id": "pd-034",
+          "role": "callback"
+        }
+      ],
+      "humor_type": "Incongruity/Absurd"
+    },
+    {
+      "scene_id": "germy-duck-handwashing-callback",
+      "type": "comedic_motif",
+      "description": "Mama's early worry that the duckling 'might be germy' quietly pays off at the end when, after cuddles, 'they wash their hands very well.' This is dual-audience deadpan humor: the child hears a tidy routine, the adult reader catches the callback to the germ warning. Deliver the handwashing line with a knowing, understated lilt rather than as a throwaway.",
+      "members": [
+        {
+          "chunk_id": "pd-006",
+          "role": "setup"
+        },
+        {
+          "chunk_id": "pd-031",
+          "role": "payoff"
+        }
+      ],
+      "humor_type": "Dry/Ironic (Deadpan)"
+    },
+    {
+      "scene_id": "save-and-release-arc",
+      "type": "narrative_motif",
+      "description": "The genuine emotional spine of the story: Ava insists they must save the trapped duckling, bonds with him all day, then must let him go to the humane society despite wanting to keep him — resolved two months later when she believes she sees him flying free to the lake. Real stakes and emotion, not a joke. Build warmth and urgency at the start, land the tearful low point when Ava must give him up, and finish with tender, hopeful wonder.",
+      "members": [
+        {
+          "chunk_id": "pd-005",
+          "role": "setup"
+        },
+        {
+          "chunk_id": "pd-024",
+          "role": "build"
+        },
+        {
+          "chunk_id": "pd-025",
+          "role": "climax"
+        },
+        {
+          "chunk_id": "pd-026",
+          "role": "build"
+        },
+        {
+          "chunk_id": "pd-029",
+          "role": "build"
+        },
+        {
+          "chunk_id": "pd-033",
+          "role": "resolution"
+        },
+        {
+          "chunk_id": "pd-034",
+          "role": "resolution"
+        }
+      ]
+    },
+    {
+      "scene_id": "mom-on-the-phone-background",
+      "type": "continuity_thread",
+      "description": "Throughout the first half, Mama is on the phone arranging the duck's rescue while Ava plays. These phone fragments are parallel background action and should stay audio-subordinate — quieter, slightly turned-away, muffled — so they never compete with Ava's foreground royal play.",
+      "members": [
+        {
+          "chunk_id": "pd-007",
+          "role": "background"
+        },
+        {
+          "chunk_id": "pd-008",
+          "role": "background"
+        },
+        {
+          "chunk_id": "pd-011",
+          "role": "background"
+        },
+        {
+          "chunk_id": "pd-014",
+          "role": "background"
+        }
+      ]
+    }
+  ],
+  "chunks": [
+    {
+      "id": "pd-001",
+      "text": "Meep Meep Meep. Meep Meep Meep.",
+      "emotion": "Curious/Wondering",
+      "intensity": "medium",
+      "volume": "normal",
+      "type": "sound_effect",
+      "speaker": "Duckling",
+      "note": "Opening onomatopoeia — the whole chunk is the sound itself; likely a duckling/bird chirp that sets up Ava's discovery. Speaker guessed from context.",
+      "verse": {
+        "syllables_per_line": [
+          6
+        ],
+        "meter_break": true,
+        "rhyme_role": "standalone_interruption"
+      }
+    },
+    {
+      "id": "pd-002",
+      "text": "“Mama, Mama, come quick.” Ava tugs at the back of her mom’s gardening shirt.",
+      "emotion": "Excited/Energetic",
+      "intensity": "high",
+      "volume": "loud",
+      "emphasis": [
+        "quick"
+      ],
+      "speaker": "Ava",
+      "note": "Child urgently calling for mom to come see something — insistent tugging, breathless energy rather than fear.",
+      "verse": {
+        "syllables_per_line": [
+          20
+        ],
+        "meter_break": true,
+        "rhyme_role": "standalone_interruption"
+      }
+    },
+    {
+      "id": "pd-003",
+      "text": "Mama stands and squints. “What is it this time, nature girl?”",
+      "emotion": "Curious/Wondering",
+      "secondary_emotion": "Humorous/Funny",
+      "intensity": "low",
+      "volume": "normal",
+      "emphasis": [
+        "this time"
+      ],
+      "speaker": "Mama",
+      "humor_type": "Dry/Ironic (Deadpan)",
+      "note": "Affectionate, slightly amused tone — 'nature girl' is a warm teasing nickname suggesting this happens often",
+      "verse": {
+        "syllables_per_line": [
+          13
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pd-004",
+      "text": "Meep Meep Meep",
+      "emotion": "Nervous/Worried",
+      "secondary_emotion": "Fearful/Scared",
+      "intensity": "medium",
+      "volume": "soft",
+      "type": "sound_effect",
+      "speaker": "Baby duck (duckling)",
+      "note": "The trapped duckling's peeping — small, high, distressed cheeps; delivered as the sound itself, not narration.",
+      "verse": {
+        "syllables_per_line": [
+          3
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pd-005",
+      "text": "“A baby duck is trapped in the window hole,” Ava shouts. “We have to save him.”",
+      "emotion": "Excited/Energetic",
+      "secondary_emotion": "Nervous/Worried",
+      "intensity": "high",
+      "volume": "loud",
+      "emphasis": [
+        "save"
+      ],
+      "speaker": "Ava",
+      "scene_refs": [
+        {
+          "scene_id": "save-and-release-arc",
+          "role": "setup"
+        }
+      ],
+      "note": "Text says 'shouts' — urgent plea to rescue the trapped duckling; worry rides under the excited urgency.",
+      "verse": {
+        "syllables_per_line": [
+          19
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pd-006",
+      "text": "“Don’t touch that duckling, honey. It might be germy. Let me call someone,” Mama says.",
+      "emotion": "Calm/Soothing",
+      "secondary_emotion": "Nervous/Worried",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "germy"
+      ],
+      "speaker": "Mama",
+      "humor_type": "Dry/Ironic (Deadpan)",
+      "scene_refs": [
+        {
+          "scene_id": "germy-duck-handwashing-callback",
+          "role": "setup"
+        }
+      ],
+      "note": "Sets up the germy-duck handwashing callback; 'germy' is the seed word that pays off later, give it a light knowing stress. Mama is reassuring but mildly cautious.",
+      "verse": {
+        "syllables_per_line": [
+          21
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pd-007",
+      "text": "And just like that, she’s on the phone.",
+      "emotion": "Neutral/Narrator",
+      "intensity": "low",
+      "volume": "normal",
+      "emphasis": [
+        "just like that"
+      ],
+      "scene_refs": [
+        {
+          "scene_id": "mom-on-the-phone-background",
+          "role": "background"
+        }
+      ],
+      "note": "Light narrator aside with a hint of wry timing — Mom springs into action instantly; 'just like that' carries a small amused beat.",
+      "verse": {
+        "syllables_per_line": [
+          9
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pd-008",
+      "text": "“...no, it’s a feral duck,” Mom says on the phone in the background.",
+      "emotion": "Neutral/Narrator",
+      "intensity": "low",
+      "volume": "soft",
+      "speaker": "Mom",
+      "scene_refs": [
+        {
+          "scene_id": "mom-on-the-phone-background",
+          "role": "background"
+        }
+      ],
+      "note": "Overheard background phone chatter — keep it offhand and quieter than the main dialogue to read as ambient.",
+      "verse": {
+        "syllables_per_line": [
+          16
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pd-009",
+      "text": "“Come here, Pharaoh Duckie, or you are going to cook in this sun.”",
+      "emotion": "Tender/Loving",
+      "secondary_emotion": "Playful/Silly",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "Pharaoh Duckie"
+      ],
+      "speaker": "Ava",
+      "humor_type": "Incongruity/Absurd",
+      "scene_refs": [
+        {
+          "scene_id": "royal-duck-naming-motif",
+          "role": "setup"
+        }
+      ],
+      "note": "Ava coaxing the duck with an affectionate, playful royal name — part of the royal-duck-naming motif setup; warm and cajoling rather than urgent.",
+      "verse": {
+        "syllables_per_line": [
+          15
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pd-010",
+      "text": "Ava follows her fluffy Egyptian king all over the palace lawn.",
+      "emotion": "Playful/Silly",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "Egyptian king",
+        "palace lawn"
+      ],
+      "humor_type": "Incongruity/Absurd",
+      "scene_refs": [
+        {
+          "scene_id": "royal-duck-naming-motif",
+          "role": "build"
+        }
+      ],
+      "note": "Part of the royal-duck-naming motif: mundane duckling described in grand royal terms ('Egyptian king','palace lawn') — deliver with whimsical mock-grandeur to land the incongruity.",
+      "verse": {
+        "syllables_per_line": [
+          18
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pd-011",
+      "text": "“You have a Waterfowl Center?” Mom asks into her phone",
+      "emotion": "Curious/Wondering",
+      "intensity": "low",
+      "volume": "normal",
+      "emphasis": [
+        "Waterfowl Center"
+      ],
+      "speaker": "Mom",
+      "scene_refs": [
+        {
+          "scene_id": "mom-on-the-phone-background",
+          "role": "background"
+        }
+      ],
+      "illustration_inference": {
+        "implied_scene": "Mom stands on the sunny palace lawn holding her phone to her ear with a bemused, eyebrow-raised expression, glancing toward Ava and the fluffy duckling waddling nearby.",
+        "source": "inferred",
+        "visual_energy": "low"
+      },
+      "note": "Background phone conversation; questioning inflection, casual not high-stakes",
+      "verse": {
+        "syllables_per_line": [
+          14
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pd-012",
+      "text": "Ava gently places His Majesty in a royal basket.",
+      "emotion": "Tender/Loving",
+      "secondary_emotion": "Playful/Silly",
+      "intensity": "medium",
+      "volume": "soft",
+      "emphasis": [
+        "His Majesty"
+      ],
+      "humor_type": "Incongruity/Absurd",
+      "scene_refs": [
+        {
+          "scene_id": "royal-duck-naming-motif",
+          "role": "build"
+        }
+      ],
+      "illustration_inference": {
+        "implied_scene": "Ava, kneeling on the palace lawn, carefully lowers a fluffy yellow duckling into a small basket lined like a throne, her face tender and focused while Mom stands nearby distracted on her phone.",
+        "source": "inferred",
+        "visual_energy": "medium"
+      },
+      "note": "Royal-naming motif (build): 'His Majesty' and 'royal basket' get an affectionate, mock-ceremonial lilt over an ordinary duckling in a basket; 'gently' cues soft, warm delivery",
+      "verse": {
+        "syllables_per_line": [
+          16
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pd-013",
+      "text": "Ava wonders if the royal duck knows how to swim yet. She decides to give him a lesson. Ava fills up her water table with the garden hose.",
+      "emotion": "Curious/Wondering",
+      "secondary_emotion": "Tender/Loving",
+      "intensity": "medium",
+      "volume": "normal",
+      "note": "Ava's gentle caretaking curiosity; the 'royal duck' framing carries playful warmth. Lean slightly above the flat prose per the illustrated-spread energy.",
+      "verse": {
+        "syllables_per_line": [
+          37
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pd-014",
+      "text": "“...great, yes, we will be here…Mom says, still on the phone.",
+      "emotion": "Neutral/Narrator",
+      "intensity": "low",
+      "volume": "normal",
+      "speaker": "Mom",
+      "scene_refs": [
+        {
+          "scene_id": "mom-on-the-phone-background",
+          "role": "background"
+        }
+      ],
+      "note": "Background phone chatter, half-distracted and casual — trailing off, not directed at Ava.",
+      "verse": {
+        "syllables_per_line": [
+          12
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pd-015",
+      "text": "The neighbor kids stop by. Every Pharaoh needs a court.",
+      "emotion": "Humorous/Funny",
+      "secondary_emotion": "Playful/Silly",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "Pharaoh",
+        "court"
+      ],
+      "humor_type": "Incongruity/Absurd",
+      "scene_refs": [
+        {
+          "scene_id": "royal-duck-naming-motif",
+          "role": "build"
+        }
+      ],
+      "illustration_inference": {
+        "implied_scene": "A cluster of neighborhood kids gather at the fence and yard around Ava and her water table, being playfully recruited into the duck's royal court as Ava assigns them roles.",
+        "source": "inferred",
+        "visual_energy": "high"
+      },
+      "note": "Incongruity humor: an ordinary duckling treated as royalty. The deadpan 'Every Pharaoh needs a court' lands the joke — a slight knowing lilt, not a flat read.",
+      "verse": {
+        "syllables_per_line": [
+          14
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pd-016",
+      "text": "“His Majesty, the Duck King, has learned how to swim,” Ava pronounces.",
+      "emotion": "Playful/Silly",
+      "secondary_emotion": "Humorous/Funny",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "His Majesty",
+        "Duck King"
+      ],
+      "speaker": "Ava",
+      "humor_type": "Incongruity/Absurd",
+      "scene_refs": [
+        {
+          "scene_id": "royal-duck-naming-motif",
+          "role": "build"
+        }
+      ],
+      "note": "Mock-royal proclamation — grand, ceremonious delivery over the mundane fact of swimming; incongruity is the joke. Part of the royal-naming motif.",
+      "verse": {
+        "syllables_per_line": [
+          17
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pd-017",
+      "text": "Ava lays out a picnic blanket in a shady spot and places a birdseed treat on top.",
+      "emotion": "Neutral/Narrator",
+      "secondary_emotion": "Playful/Silly",
+      "intensity": "medium",
+      "volume": "normal",
+      "note": "Sparse action line but part of the whimsical royal-court make-believe; keep a light playful energy.",
+      "verse": {
+        "syllables_per_line": [
+          23
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pd-018",
+      "text": "“Pharaoh Duck will take his picnic in the garden this sunny day,” Ava proclaims.",
+      "emotion": "Playful/Silly",
+      "secondary_emotion": "Joyful/Happy",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "Pharaoh Duck"
+      ],
+      "speaker": "Ava",
+      "humor_type": "Incongruity/Absurd",
+      "scene_refs": [
+        {
+          "scene_id": "royal-duck-naming-motif",
+          "role": "build"
+        }
+      ],
+      "note": "Part of royal-naming-motif: mundane duckling given grand royal treatment. Deliver with mock-regal proclamation flourish for the incongruity humor.",
+      "verse": {
+        "syllables_per_line": [
+          20
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pd-019",
+      "text": "The court entertains their Duck King.",
+      "emotion": "Playful/Silly",
+      "secondary_emotion": "Joyful/Happy",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "entertains"
+      ],
+      "humor_type": "Incongruity/Absurd",
+      "scene_refs": [
+        {
+          "scene_id": "royal-duck-naming-motif",
+          "role": "build"
+        }
+      ],
+      "illustration_inference": {
+        "implied_scene": "On the shady picnic blanket, Ava and a few smaller creatures (a cat, toys, or bugs) bow, dance, and perform for a plump duck perched grandly on a cushion like a tiny throne.",
+        "source": "inferred",
+        "visual_energy": "high"
+      },
+      "note": "Sparse line for a full illustrated ceremonial spread — the royal-duck motif is mock-grand play; lean into whimsical mock-regal energy rather than flat narration.",
+      "verse": {
+        "syllables_per_line": [
+          8
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pd-020",
+      "text": "The court promenades with their Duck King.",
+      "emotion": "Playful/Silly",
+      "secondary_emotion": "Humorous/Funny",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "promenades"
+      ],
+      "humor_type": "Incongruity/Absurd",
+      "scene_refs": [
+        {
+          "scene_id": "royal-duck-naming-motif",
+          "role": "build"
+        }
+      ],
+      "illustration_inference": {
+        "implied_scene": "Ava and her friends parade in a stately line across the sunny garden lawn, holding the duck aloft on a cushion or in a decorated basket like royalty in procession.",
+        "source": "inferred",
+        "visual_energy": "medium"
+      },
+      "note": "Part of the royal-duck-naming motif — the grand word 'promenades' applied to kids parading a duckling is gentle incongruity humor; sparse line should be delivered with mock-ceremonial whimsy.",
+      "verse": {
+        "syllables_per_line": [
+          9
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pd-021",
+      "text": "The court keeps their Duck King safe.",
+      "emotion": "Tender/Loving",
+      "secondary_emotion": "Playful/Silly",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "safe"
+      ],
+      "humor_type": "Incongruity/Absurd",
+      "scene_refs": [
+        {
+          "scene_id": "royal-duck-naming-motif",
+          "role": "build"
+        }
+      ],
+      "illustration_inference": {
+        "implied_scene": "A cluster of children huddle protectively around a small duck perched on a cushion or in cupped hands, shielding him with outstretched arms from wind or a curious dog on the lawn.",
+        "source": "inferred",
+        "visual_energy": "medium"
+      },
+      "note": "Part of the royal-naming-motif build; sparse picture-book line carrying warmth of children protecting their pretend Duck King — lean into the affectionate 'court' conceit.",
+      "verse": {
+        "syllables_per_line": [
+          7
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pd-022",
+      "text": "The court has to go home for dinner.",
+      "emotion": "Neutral/Narrator",
+      "secondary_emotion": "Sad/Melancholic",
+      "intensity": "low",
+      "volume": "normal",
+      "illustration_inference": {
+        "implied_scene": "At dusk, the group of children (the 'court') trudge reluctantly away across the lawn toward home, glancing back over their shoulders at the little duckling left behind on the grass, as a parent calls them in for dinner.",
+        "source": "inferred",
+        "visual_energy": "medium"
+      },
+      "note": "Gentle turn toward the story winding down; slight wistfulness as playtime ends, but stays in warm narrator register.",
+      "verse": {
+        "syllables_per_line": [
+          9
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pd-023",
+      "text": "Even royals need a cuddle.",
+      "emotion": "Tender/Loving",
+      "intensity": "medium",
+      "volume": "soft",
+      "emphasis": [
+        "cuddle"
+      ],
+      "humor_type": "Incongruity/Absurd",
+      "scene_refs": [
+        {
+          "scene_id": "royal-duck-naming-motif",
+          "role": "build"
+        }
+      ],
+      "note": "Playful royal-naming motif meets a genuinely warm, affectionate beat — gentle and intimate, with a light comedic lilt on the incongruity of royalty needing a cuddle.",
+      "verse": {
+        "syllables_per_line": [
+          8
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pd-024",
+      "text": "“Ava, bring the duckling, the humane society is here,” Mama says.",
+      "emotion": "Calm/Soothing",
+      "intensity": "medium",
+      "volume": "normal",
+      "speaker": "Mama",
+      "scene_refs": [
+        {
+          "scene_id": "save-and-release-arc",
+          "role": "build"
+        }
+      ],
+      "note": "Gentle parental instruction; leads into the emotional release-of-the-duckling beat that follows.",
+      "verse": {
+        "syllables_per_line": [
+          18
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pd-025",
+      "text": "“Aww Mama, can’t we keep him?” Tears creep into Ava’s eyes.",
+      "emotion": "Whining/Pleading",
+      "secondary_emotion": "Sad/Melancholic",
+      "intensity": "high",
+      "volume": "soft",
+      "emphasis": [
+        "keep"
+      ],
+      "speaker": "Ava",
+      "scene_refs": [
+        {
+          "scene_id": "save-and-release-arc",
+          "role": "climax"
+        }
+      ],
+      "note": "Child pleading to keep the duckling while genuinely tearing up — pleading protest riding over real sadness; keep quiet but emotionally high, don't average to medium.",
+      "verse": {
+        "syllables_per_line": [
+          16
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pd-026",
+      "text": "“No, baby.” Mama smiles down at the fluffy, little hatchling. “He needs time to grow and a safe place to do it.”",
+      "emotion": "Tender/Loving",
+      "secondary_emotion": "Calm/Soothing",
+      "intensity": "medium",
+      "volume": "soft",
+      "speaker": "Mama",
+      "scene_refs": [
+        {
+          "scene_id": "save-and-release-arc",
+          "role": "build"
+        }
+      ],
+      "note": "Gentle, comforting refusal — Mama softening the disappointment for Ava while explaining kindly.",
+      "verse": {
+        "syllables_per_line": [
+          27
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pd-027",
+      "text": "Ava wipes her tears. “But His Majesty was just about to have his bubble bath.”",
+      "emotion": "Whining/Pleading",
+      "secondary_emotion": "Playful/Silly",
+      "intensity": "medium",
+      "volume": "soft",
+      "emphasis": [
+        "His Majesty"
+      ],
+      "humor_type": "Incongruity/Absurd",
+      "scene_refs": [
+        {
+          "scene_id": "royal-duck-naming-motif",
+          "role": "build"
+        }
+      ],
+      "note": "Ava pivots from tears into a negotiating plea, dressing up the duckling as royalty (build of the royal-naming motif) — the mock-grand 'His Majesty' should carry a playful, coaxing lilt over lingering upset.",
+      "verse": {
+        "syllables_per_line": [
+          20
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pd-028",
+      "text": "“His Majesty?” Mama says. “You’re funny.”",
+      "emotion": "Humorous/Funny",
+      "secondary_emotion": "Tender/Loving",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "Majesty",
+        "funny"
+      ],
+      "speaker": "Mama",
+      "humor_type": "Incongruity/Absurd",
+      "scene_refs": [
+        {
+          "scene_id": "royal-duck-naming-motif",
+          "role": "payoff"
+        }
+      ],
+      "illustration_inference": {
+        "implied_scene": "Mama crouches at Ava's level, laughing warmly with a hand on her shoulder, while Ava clutches the tiny fluffy duckling protectively between them in a cozy home setting.",
+        "source": "inferred",
+        "visual_energy": "low"
+      },
+      "note": "Payoff of the royal-duck-naming motif — Mama is gently amused by Ava's over-the-top 'His Majesty'; warm, affectionate teasing rather than mockery",
+      "verse": {
+        "syllables_per_line": [
+          11
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pd-029",
+      "text": "“Are you sure he will be okay?”",
+      "emotion": "Nervous/Worried",
+      "secondary_emotion": "Tender/Loving",
+      "intensity": "medium",
+      "volume": "soft",
+      "emphasis": [
+        "sure"
+      ],
+      "speaker": "Ava",
+      "scene_refs": [
+        {
+          "scene_id": "save-and-release-arc",
+          "role": "build"
+        }
+      ],
+      "note": "Child seeking reassurance about the duck she loves — worry with underlying affection",
+      "verse": {
+        "syllables_per_line": [
+          8
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pd-030",
+      "text": "Mama gives Ava and Pharaoh Duck a quick cuddle too.",
+      "emotion": "Tender/Loving",
+      "intensity": "medium",
+      "volume": "normal",
+      "illustration_inference": {
+        "implied_scene": "Mama kneels down and wraps her arms around Ava, who is clutching a small toy or rubber duck ('Pharaoh Duck'), pulling both child and duck into a warm quick embrace with tender smiles.",
+        "source": "inferred",
+        "visual_energy": "medium"
+      },
+      "note": "Warm affectionate beat as Mama cuddles both child and duck; gentle delivery.",
+      "verse": {
+        "syllables_per_line": [
+          14
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pd-031",
+      "text": "Then they wash their hands very well.",
+      "emotion": "Humorous/Funny",
+      "intensity": "low",
+      "volume": "normal",
+      "emphasis": [
+        "very well"
+      ],
+      "humor_type": "Dry/Ironic (Deadpan)",
+      "scene_refs": [
+        {
+          "scene_id": "germy-duck-handwashing-callback",
+          "role": "payoff"
+        }
+      ],
+      "note": "Dry/ironic callback payoff to the germy-duck handwashing motif — deliver deadpan, understated; the humor lands for the adult reading aloud. Resist over-playing it.",
+      "verse": {
+        "syllables_per_line": [
+          8
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pd-032",
+      "text": "“The High Society will transport you to your castle now, Your Majesty,” Ava whispers to Pharaoh Duck.",
+      "emotion": "Playful/Silly",
+      "secondary_emotion": "Tender/Loving",
+      "intensity": "medium",
+      "volume": "whisper",
+      "emphasis": [
+        "Your Majesty"
+      ],
+      "humor_type": "Incongruity/Absurd",
+      "scene_refs": [
+        {
+          "scene_id": "royal-duck-naming-motif",
+          "role": "callback"
+        }
+      ],
+      "note": "Callback to the royal-duck-naming motif — grand ceremonial language ('High Society','your castle','Your Majesty') applied tenderly to a pet duck; whispered but affectionate, keep the mock-regal charm warm.",
+      "verse": {
+        "syllables_per_line": [
+          27
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pd-033",
+      "text": "And they do.",
+      "emotion": "Tender/Loving",
+      "secondary_emotion": "Joyful/Happy",
+      "intensity": "medium",
+      "volume": "soft",
+      "emphasis": [
+        "do"
+      ],
+      "scene_refs": [
+        {
+          "scene_id": "save-and-release-arc",
+          "role": "resolution"
+        }
+      ],
+      "note": "Sparse resolution line paying off the release; the short sentence carries the warm satisfaction of the whole save-and-release arc, so lean gentle and heartfelt rather than flat.",
+      "verse": {
+        "syllables_per_line": [
+          3
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pd-034",
+      "text": "…Two months later Ava is sure she sees her Pharaoh Duck flying overhead to his palace by the lake.",
+      "emotion": "Tender/Loving",
+      "secondary_emotion": "Joyful/Happy",
+      "intensity": "medium",
+      "volume": "soft",
+      "emphasis": [
+        "her"
+      ],
+      "humor_type": "Incongruity/Absurd",
+      "scene_refs": [
+        {
+          "scene_id": "royal-duck-naming-motif",
+          "role": "callback"
+        },
+        {
+          "scene_id": "save-and-release-arc",
+          "role": "resolution"
+        }
+      ],
+      "note": "Closing line of the book — warm, wistful resolution of the save-and-release arc plus a gentle callback to the royal-duck naming. The leading ellipsis and 'is sure she sees' invite a soft, dreamy, hopeful delivery.",
+      "verse": {
+        "syllables_per_line": [
+          26
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "chunk_id": "pd-004",
+    "text": "Meep Meep Meep",
+    "expected_emotion": "Curious/Wondering",
+    "actual_emotion": "Nervous/Worried"
+  },
+  {
+    "chunk_id": "pd-009",
+    "text": "\u201cCome here, Pharaoh Duckie, or you are going to cook in this sun.\u201d",
+    "expected_emotion": "Playful/Silly",
+    "actual_emotion": "Tender/Loving"
+  },
+  {
+    "chunk_id": "pd-013",
+    "text": "Ava wonders if the royal duck knows how to swim yet. She decides to give him a lesson. Ava fills up her water table with the garden hose.",
+    "expected_emotion": "Playful/Silly",
+    "actual_emotion": "Curious/Wondering"
+  },
+  {
+    "chunk_id": "pd-015",
+    "text": "The neighbor kids stop by. Every Pharaoh needs a court.",
+    "expected_emotion": "Playful/Silly",
+    "actual_emotion": "Humorous/Funny"
+  },
+  {
+    "chunk_id": "pd-016",
+    "text": "\u201cHis Majesty, the Duck King, has learned how to swim,\u201d Ava pronounces.",
+    "expected_emotion": "Joyful/Happy",
+    "actual_emotion": "Playful/Silly"
+  },
+  {
+    "chunk_id": "pd-017",
+    "text": "Ava lays out a picnic blanket in a shady spot and places a birdseed treat on top.",
+    "expected_emotion": "Calm/Soothing",
+    "actual_emotion": "Neutral/Narrator"
+  },
+  {
+    "chunk_id": "pd-020",
+    "text": "The court promenades with their Duck King.",
+    "expected_emotion": "Joyful/Happy",
+    "actual_emotion": "Playful/Silly"
+  },
+  {
+    "chunk_id": "pd-022",
+    "text": "The court has to go home for dinner.",
+    "expected_emotion": "Humorous/Funny",
+    "actual_emotion": "Neutral/Narrator"
+  },
+  {
+    "chunk_id": "pd-024",
+    "text": "\u201cAva, bring the duckling, the humane society is here,\u201d Mama says.",
+    "expected_emotion": "Neutral/Narrator",
+    "actual_emotion": "Calm/Soothing"
+  },
+  {
+    "chunk_id": "pd-032",
+    "text": "\u201cThe High Society will transport you to your castle now, Your Majesty,\u201d Ava whispers to Pharaoh Duck.",
+    "expected_emotion": "Tender/Loving",
+    "actual_emotion": "Playful/Silly"
+  },
+  {
+    "chunk_id": "pd-033",
+    "text": "And they do.",
+    "expected_emotion": "Neutral/Narrator",
+    "actual_emotion": "Tender/Loving"
+  },
+  {
+    "chunk_id": "pd-034",
+    "text": "\u2026Two months later Ava is sure she sees her Pharaoh Duck flying overhead to his palace by the lake.",
+    "expected_emotion": "Joyful/Happy",
+    "actual_emotion": "Tender/Loving"
+  }
+]

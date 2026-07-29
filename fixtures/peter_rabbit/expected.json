@@ -1,0 +1,588 @@
+{
+  "title": "The Tale of Peter Rabbit",
+  "author": "Beatrix Potter",
+  "note": "Project Gutenberg boilerplate, title pages, illustrator/publisher credits, and bare '[Illustration]' placeholder tags removed as non-narration. Unlike Turkey Takeover, these illustration markers carry no descriptive text, so no illustration_inference data could be extracted from the file itself.",
+  "book_profile": {
+    "genre": "fiction",
+    "style_era": "classic_literary",
+    "narrator_stance": "Omniscient, measured, and periodically steps outside the story to address the reader directly ('I think he might have got away altogether if...', 'I am sorry to say') -- gently wry rather than fully embodying the characters' panic, even during genuinely frightening moments.",
+    "emotional_range": {
+      "intensity_ceiling": "high",
+      "volume_ceiling": "loud",
+      "disabled_emotions": [],
+      "favored_humor_types": [
+        "dry_ironic",
+        "mischief_defiance",
+        "slapstick_physical"
+      ]
+    },
+    "verse_form": false,
+    "rhyme_scheme": null,
+    "dominant_meter": "prose -- no meter",
+    "note": "Unlike the two contemporary test books, real fear and real danger are present here (McGregor's chase, the sieve, near-capture) -- the intensity_ceiling is high. But the narrator's OWN delivery manner stays more composed and literary than a modern book would render the same events; the ceiling on volume stays at loud rather than shout for the narration itself, even though a quoted character line (McGregor's 'Stop thief!') can hit shout as an exception."
+  },
+  "scenes": [
+    {
+      "scene_id": "good-sisters-contrast",
+      "type": "narrative_motif",
+      "description": "The book's real 'moral' is never stated outright -- it's built entirely through contrast. The obedient sisters are set up early doing as they're told, and the story closes by simply placing Peter's medicine-and-bed evening next to their bread-milk-and-blackberries supper with no commentary at all. That restraint is the joke and the lesson at once.",
+      "members": [
+        {
+          "chunk_id": "pr-008",
+          "role": "setup"
+        },
+        {
+          "chunk_id": "pr-009",
+          "role": "setup"
+        },
+        {
+          "chunk_id": "pr-046",
+          "role": "build"
+        },
+        {
+          "chunk_id": "pr-047",
+          "role": "payoff"
+        }
+      ]
+    },
+    {
+      "scene_id": "lost-clothing-motif",
+      "type": "narrative_motif",
+      "description": "Peter's shoes and jacket are lost piece by piece across the chase, then explicitly tallied at the end ('the second little jacket and pair of shoes... in a fortnight') -- a running gag about his characteristic carelessness, paying off with McGregor repurposing the lost clothes as a scarecrow.",
+      "members": [
+        {
+          "chunk_id": "pr-016",
+          "role": "setup"
+        },
+        {
+          "chunk_id": "pr-023",
+          "role": "build"
+        },
+        {
+          "chunk_id": "pr-042",
+          "role": "payoff"
+        },
+        {
+          "chunk_id": "pr-045",
+          "role": "callback"
+        }
+      ]
+    },
+    {
+      "scene_id": "garden-chase-arc",
+      "type": "narrative_motif",
+      "description": "The central danger arc: Peter sneaks in, is discovered, and the chase escalates to a near-capture before he finally escapes. This is the story's real stakes, even though it's a picture book.",
+      "members": [
+        {
+          "chunk_id": "pr-009",
+          "role": "setup"
+        },
+        {
+          "chunk_id": "pr-015",
+          "role": "build"
+        },
+        {
+          "chunk_id": "pr-024",
+          "role": "climax"
+        },
+        {
+          "chunk_id": "pr-041",
+          "role": "resolution"
+        }
+      ]
+    },
+    {
+      "scene_id": "narrator-asides",
+      "type": "stylistic_device",
+      "description": "Potter's narrator periodically steps outside the story to address the reader directly ('I think he might have got away altogether if...', 'I am sorry to say'), or pauses mid-crisis on an oddly mundane detail (the jacket's brass buttons). These moments want a distinct voice -- knowing and a little wry, not the same as the in-scene urgency around them.",
+      "members": [
+        {
+          "chunk_id": "pr-018",
+          "role": "instance"
+        },
+        {
+          "chunk_id": "pr-019",
+          "role": "instance"
+        },
+        {
+          "chunk_id": "pr-046",
+          "role": "instance"
+        }
+      ]
+    }
+  ],
+  "chunks": [
+    {
+      "id": "pr-001",
+      "text": "Once upon a time there were four little rabbits, and their names were Flopsy, Mopsy, Cotton-tail and Peter.",
+      "emotion": "Neutral/Narrator",
+      "intensity": "low",
+      "volume": "normal",
+      "note": "classic fairy-tale opening"
+    },
+    {
+      "id": "pr-002",
+      "text": "They lived with their mother in a sand-bank, underneath the root of a very big fir tree.",
+      "emotion": "Calm/Soothing",
+      "intensity": "low",
+      "volume": "soft"
+    },
+    {
+      "id": "pr-003",
+      "text": "\"Now, my dears,\" said old Mrs. Rabbit one morning, \"You may go into the fields or down the lane, but don't go into Mr. McGregor's garden.",
+      "emotion": "Calm/Soothing",
+      "intensity": "medium",
+      "volume": "normal",
+      "secondary_emotion": "Nervous/Worried",
+      "note": "warm but firm -- the warning carries real weight given what happened to their father"
+    },
+    {
+      "id": "pr-004",
+      "text": "Your father had an accident there; he was put in a pie by Mrs. McGregor.",
+      "emotion": "Neutral/Narrator",
+      "intensity": "medium",
+      "volume": "normal",
+      "note": "Genuinely dark content (the father was eaten) delivered completely matter-of-fact -- this is Potter's signature deadpan darkness. Whether this reads as pure plain fact or as quiet dual-audience dark humor is a real judgment call -- flagging as a candidate for reviewer discussion rather than resolving it myself.",
+      "flag_for_review": true
+    },
+    {
+      "id": "pr-005",
+      "text": "Now run along and don't get into mischief. I am going out.\"",
+      "emotion": "Calm/Soothing",
+      "intensity": "medium",
+      "volume": "normal"
+    },
+    {
+      "id": "pr-006",
+      "text": "Then old Mrs. Rabbit took a basket and her umbrella and went through the wood to the baker's.",
+      "emotion": "Neutral/Narrator",
+      "intensity": "low",
+      "volume": "normal"
+    },
+    {
+      "id": "pr-007",
+      "text": "She bought a loaf of brown bread and five currant buns.",
+      "emotion": "Neutral/Narrator",
+      "intensity": "low",
+      "volume": "normal"
+    },
+    {
+      "id": "pr-008",
+      "text": "Flopsy, Mopsy and Cotton-tail who were good little bunnies went down the lane together to gather blackberries.",
+      "emotion": "Calm/Soothing",
+      "intensity": "medium",
+      "volume": "normal",
+      "scene_refs": [
+        {
+          "scene_id": "good-sisters-contrast",
+          "role": "setup"
+        }
+      ]
+    },
+    {
+      "id": "pr-009",
+      "text": "But Peter who was very naughty, ran straight away to Mr. McGregor's garden and Squeezed under the gate!",
+      "emotion": "Playful/Silly",
+      "intensity": "high",
+      "volume": "loud",
+      "humor_type": "mischief_defiance",
+      "scene_refs": [
+        {
+          "scene_id": "good-sisters-contrast",
+          "role": "setup"
+        },
+        {
+          "scene_id": "garden-chase-arc",
+          "role": "setup"
+        }
+      ]
+    },
+    {
+      "id": "pr-010",
+      "text": "First he ate some lettuces and some French beans",
+      "emotion": "Playful/Silly",
+      "intensity": "medium",
+      "volume": "normal",
+      "humor_type": "exaggeration_hyperbole"
+    },
+    {
+      "id": "pr-011",
+      "text": "And then He Ate Some Radishes",
+      "emotion": "Playful/Silly",
+      "intensity": "medium",
+      "volume": "loud",
+      "humor_type": "exaggeration_hyperbole",
+      "note": "Original text breaks this into one word per line (a typographic emphasis device, not verse) -- read each word with its own small beat/pause, building comic momentum on his overeating, rather than as a normal flowing sentence."
+    },
+    {
+      "id": "pr-012",
+      "text": "And then, feeling rather sick, he went to look for some parsley.",
+      "emotion": "Humorous/Funny",
+      "intensity": "low",
+      "volume": "normal",
+      "humor_type": "exaggeration_hyperbole",
+      "note": "the mild comeuppance for greed"
+    },
+    {
+      "id": "pr-013",
+      "text": "But round the end of a cucumber frame, whom should he meet but Mr. McGregor!",
+      "emotion": "Surprised/Astonished",
+      "intensity": "high",
+      "volume": "loud",
+      "humor_type": "surprise_reversal"
+    },
+    {
+      "id": "pr-014",
+      "text": "Mr. McGregor was on his hands and knees planting out young cabbages, but he jumped up and ran after Peter, waving a rake and calling out \"Stop thief!\"",
+      "emotion": "Excited/Energetic",
+      "intensity": "high",
+      "volume": "shout",
+      "secondary_emotion": "Angry/Frustrated",
+      "note": "McGregor's shouted line can hit shout volume even though the narrator's own voice generally stays at loud or below"
+    },
+    {
+      "id": "pr-015",
+      "text": "Peter was most dreadfully frightened; he rushed all over the garden, for he had forgotten the way back to the gate.",
+      "emotion": "Fearful/Scared",
+      "intensity": "high",
+      "volume": "loud",
+      "scene_refs": [
+        {
+          "scene_id": "garden-chase-arc",
+          "role": "build"
+        }
+      ]
+    },
+    {
+      "id": "pr-016",
+      "text": "He lost one shoe among the cabbages, and the other amongst the potatoes.",
+      "emotion": "Fearful/Scared",
+      "intensity": "high",
+      "volume": "loud",
+      "secondary_emotion": "Humorous/Funny",
+      "humor_type": "slapstick_physical",
+      "scene_refs": [
+        {
+          "scene_id": "lost-clothing-motif",
+          "role": "setup"
+        }
+      ]
+    },
+    {
+      "id": "pr-017",
+      "text": "After losing them, he ran on four legs and went faster",
+      "emotion": "Fearful/Scared",
+      "intensity": "high",
+      "volume": "loud",
+      "humor_type": "slapstick_physical",
+      "note": "a funny visual beat (reverting to all fours) even within real panic -- classic tension-plus-comedy blend"
+    },
+    {
+      "id": "pr-018",
+      "text": "So that I think he might have got away altogether if he had not unfortunately run into a gooseberry net And got caught by the large buttons on his jacket.",
+      "emotion": "Surprised/Astonished",
+      "intensity": "high",
+      "volume": "loud",
+      "secondary_emotion": "Fearful/Scared",
+      "note": "\"I think\" is the narrator directly addressing the reader -- a knowing, slightly rueful aside voice, distinct from Peter's own in-scene panic.",
+      "scene_refs": [
+        {
+          "scene_id": "narrator-asides",
+          "role": "instance"
+        }
+      ]
+    },
+    {
+      "id": "pr-019",
+      "text": "It was a blue jacket with brass buttons, quite new.",
+      "emotion": "Humorous/Funny",
+      "intensity": "low",
+      "volume": "normal",
+      "humor_type": "dry_ironic",
+      "note": "a deliberate tonal deflation right after high tension -- the narrator pausing mid-crisis to describe fashion details. Same device as a meter-break pause in verse, just in prose form.",
+      "scene_refs": [
+        {
+          "scene_id": "narrator-asides",
+          "role": "instance"
+        }
+      ]
+    },
+    {
+      "id": "pr-020",
+      "text": "Peter gave himself up for lost and shed big tears;",
+      "emotion": "Sad/Melancholic",
+      "intensity": "high",
+      "volume": "normal"
+    },
+    {
+      "id": "pr-021",
+      "text": "But his sobs were overheard by some friendly sparrows",
+      "emotion": "Curious/Wondering",
+      "intensity": "medium",
+      "volume": "normal",
+      "secondary_emotion": "Tender/Loving"
+    },
+    {
+      "id": "pr-022",
+      "text": "Who flew to him in great excitement and implored him to exert himself.",
+      "emotion": "Excited/Energetic",
+      "intensity": "medium",
+      "volume": "loud"
+    },
+    {
+      "id": "pr-023",
+      "text": "Mr. McGregor came up with a sieve which he intended to pop on the top of Peter, but Peter wriggled out just in time.",
+      "emotion": "Fearful/Scared",
+      "intensity": "high",
+      "volume": "loud",
+      "secondary_emotion": "Excited/Energetic",
+      "scene_refs": [
+        {
+          "scene_id": "garden-chase-arc",
+          "role": "climax"
+        }
+      ]
+    },
+    {
+      "id": "pr-024",
+      "text": "Leaving his jacket behind him.",
+      "emotion": "Humorous/Funny",
+      "intensity": "low",
+      "volume": "normal",
+      "humor_type": "dry_ironic",
+      "scene_refs": [
+        {
+          "scene_id": "lost-clothing-motif",
+          "role": "build"
+        }
+      ]
+    },
+    {
+      "id": "pr-025",
+      "text": "He rushed into the tool-shed and-- Jumped into a can.",
+      "emotion": "Excited/Energetic",
+      "intensity": "high",
+      "volume": "loud",
+      "secondary_emotion": "Fearful/Scared",
+      "humor_type": "slapstick_physical"
+    },
+    {
+      "id": "pr-026",
+      "text": "It would have been a beautiful thing to hide in, if it had not had so much water in it. Mr. McGregor was quite sure that Peter was somewhere in the tool-shed, perhaps hidden underneath a flower-pot.",
+      "emotion": "Humorous/Funny",
+      "intensity": "medium",
+      "volume": "normal",
+      "secondary_emotion": "Nervous/Worried",
+      "humor_type": "dry_ironic"
+    },
+    {
+      "id": "pr-027",
+      "text": "He began to turn them over carefully, looking under each.",
+      "emotion": "Mysterious/Suspenseful",
+      "intensity": "medium",
+      "volume": "soft"
+    },
+    {
+      "id": "pr-028",
+      "text": "Presently Peter sneezed \"Kertyschoo!\"",
+      "emotion": "Surprised/Astonished",
+      "intensity": "high",
+      "volume": "loud",
+      "humor_type": "surprise_reversal",
+      "note": "\"Kertyschoo!\" is an inline onomatopoeia embedded in the sentence, not a standalone sound-effect chunk -- still needs its own distinct sound-effect texture (a real sneeze sound) breaking the tense quiet."
+    },
+    {
+      "id": "pr-029",
+      "text": "Mr. McGregor was after him in no time, and tried to put his foot upon Peter, who Jumped out of a window, upsetting three plants.",
+      "emotion": "Excited/Energetic",
+      "intensity": "high",
+      "volume": "loud",
+      "secondary_emotion": "Fearful/Scared",
+      "humor_type": "slapstick_physical"
+    },
+    {
+      "id": "pr-030",
+      "text": "Peter sat down to rest; he was out of breath and trembling with fright, and he had not the least idea which way to go.",
+      "emotion": "Nervous/Worried",
+      "intensity": "medium",
+      "volume": "soft",
+      "secondary_emotion": "Fearful/Scared",
+      "note": "tension-release beat -- exhaustion after the chase, quieter now"
+    },
+    {
+      "id": "pr-031",
+      "text": "Also he was very damp with sitting in that can.",
+      "emotion": "Humorous/Funny",
+      "intensity": "low",
+      "volume": "normal",
+      "humor_type": "dry_ironic"
+    },
+    {
+      "id": "pr-032",
+      "text": "After a time he began to wander about, going lippity-- lippity-- not very fast and looking all around.",
+      "emotion": "Calm/Soothing",
+      "intensity": "low",
+      "volume": "soft",
+      "secondary_emotion": "Curious/Wondering",
+      "note": "the dashes in the original are a pacing device -- draw out \"lippity\" slowly and deliberately, not read at normal conversational speed."
+    },
+    {
+      "id": "pr-033",
+      "text": "He found a door in a wall; but it was locked and there was no room for a fat little rabbit to squeeze underneath.",
+      "emotion": "Nervous/Worried",
+      "intensity": "medium",
+      "volume": "normal"
+    },
+    {
+      "id": "pr-034",
+      "text": "An old mouse was running in and out over the stone doorstep, carrying peas and beans to her family in the wood. Peter asked her the way to the gate but she had such a large pea in her mouth she could not answer. She only shook her head at him.",
+      "emotion": "Curious/Wondering",
+      "intensity": "medium",
+      "volume": "normal",
+      "secondary_emotion": "Humorous/Funny",
+      "humor_type": "incongruity_absurd",
+      "note": "a small gentle joke -- she can't answer because her mouth is literally full"
+    },
+    {
+      "id": "pr-035",
+      "text": "Peter began to cry.",
+      "emotion": "Sad/Melancholic",
+      "intensity": "high",
+      "volume": "soft"
+    },
+    {
+      "id": "pr-036",
+      "text": "Then he tried to find his way straight across the garden, but he became more and more puzzled. Presently he came to a pond where Mr. McGregor filled his water-cans. A white cat was staring at some gold-fish; she sat very, very still, but now and then the tip of her tail twitched as if it were alive. Peter thought it best to go away without speaking to her.",
+      "emotion": "Mysterious/Suspenseful",
+      "intensity": "high",
+      "volume": "soft",
+      "secondary_emotion": "Nervous/Worried",
+      "note": "the cat's stillness should read as quietly ominous, not comic"
+    },
+    {
+      "id": "pr-037",
+      "text": "He had heard about cats from his cousin, little Benjamin Bunny.",
+      "emotion": "Curious/Wondering",
+      "intensity": "low",
+      "volume": "normal",
+      "note": "a cross-reference to Potter's other books -- a nice bit of connective world-building, not a plot beat"
+    },
+    {
+      "id": "pr-038",
+      "text": "He went back towards the tool-shed, but suddenly, quite close to him, he heard the noise of a hoe--scr-r-ritch, scratch, scratch, scritch.",
+      "emotion": "Nervous/Worried",
+      "intensity": "high",
+      "volume": "soft",
+      "secondary_emotion": "Mysterious/Suspenseful",
+      "note": "\"scr-r-ritch, scratch, scratch, scritch\" is another inline onomatopoeia -- a scratchy, textured sound, close and alarming. High intensity but quiet volume, same whisper-but-intense pattern flagged in both other manuscripts."
+    },
+    {
+      "id": "pr-039",
+      "text": "Peter scuttered underneath the bushes, but presently as nothing happened, he came out and Climbed upon a wheelbarrow, and peeped over.",
+      "emotion": "Curious/Wondering",
+      "intensity": "medium",
+      "volume": "soft",
+      "secondary_emotion": "Nervous/Worried"
+    },
+    {
+      "id": "pr-040",
+      "text": "The first thing he saw was Mr. McGregor hoeing onions. His back was turned towards Peter and beyond him was the gate!",
+      "emotion": "Excited/Energetic",
+      "intensity": "high",
+      "volume": "normal",
+      "humor_type": "surprise_reversal",
+      "note": "the hopeful turn -- relief starting to break through"
+    },
+    {
+      "id": "pr-041",
+      "text": "Peter got down very quietly off the wheel-barrow and started running as fast as he could go, along a straight walk behind some black currant bushes. Mr. McGregor caught sight of him at the corner, but Peter did not care. He slipped underneath the gate and was safe at last in the wood outside the garden.",
+      "emotion": "Excited/Energetic",
+      "intensity": "high",
+      "volume": "loud",
+      "secondary_emotion": "Joyful/Happy",
+      "scene_refs": [
+        {
+          "scene_id": "garden-chase-arc",
+          "role": "resolution"
+        }
+      ]
+    },
+    {
+      "id": "pr-042",
+      "text": "Mr. McGregor hung up the little jacket and the shoes for a scare-crow to frighten the blackbirds.",
+      "emotion": "Humorous/Funny",
+      "intensity": "low",
+      "volume": "normal",
+      "humor_type": "dry_ironic",
+      "scene_refs": [
+        {
+          "scene_id": "lost-clothing-motif",
+          "role": "payoff"
+        }
+      ]
+    },
+    {
+      "id": "pr-043",
+      "text": "Peter never stopped running or looked behind him Till he got home to the big fir-tree.",
+      "emotion": "Excited/Energetic",
+      "intensity": "medium",
+      "volume": "normal"
+    },
+    {
+      "id": "pr-044",
+      "text": "He was so tired that he flopped down upon the nice soft sand on the floor of the rabbit hole, and shut his eyes. His mother was busy cooking; she wondered what he had done with his clothes.",
+      "emotion": "Calm/Soothing",
+      "intensity": "medium",
+      "volume": "soft",
+      "secondary_emotion": "Humorous/Funny"
+    },
+    {
+      "id": "pr-045",
+      "text": "It was the second little jacket and pair of shoes that Peter had lost in a fortnight!",
+      "emotion": "Humorous/Funny",
+      "intensity": "medium",
+      "volume": "normal",
+      "humor_type": "dry_ironic",
+      "scene_refs": [
+        {
+          "scene_id": "lost-clothing-motif",
+          "role": "callback"
+        }
+      ]
+    },
+    {
+      "id": "pr-046",
+      "text": "I am sorry to say that Peter was not very well during the evening. His mother put him to bed and made some camomile tea; and she gave a dose of it to Peter! \"One teaspoonful to be taken at bedtime.\" But--",
+      "emotion": "Humorous/Funny",
+      "intensity": "medium",
+      "volume": "normal",
+      "humor_type": "dry_ironic",
+      "note": "\"I am sorry to say\" is the narrator's direct address again -- mock sympathy for Peter's just comeuppance. The trailing \"But--\" is a comedic pause before the punchline, same device as a meter-break interruption in verse.",
+      "scene_refs": [
+        {
+          "scene_id": "good-sisters-contrast",
+          "role": "build"
+        },
+        {
+          "scene_id": "narrator-asides",
+          "role": "instance"
+        }
+      ]
+    },
+    {
+      "id": "pr-047",
+      "text": "Flopsy, Mopsy and Cottontail had bread and milk and blackberries for supper.",
+      "emotion": "Humorous/Funny",
+      "intensity": "low",
+      "volume": "normal",
+      "humor_type": "dry_ironic",
+      "note": "the punchline of the whole book -- the contrast (naughty Peter gets medicine and bed, good sisters get a treat) is left to speak for itself, no explicit moralizing",
+      "scene_refs": [
+        {
+          "scene_id": "good-sisters-contrast",
+          "role": "payoff"
+        }
+      ]
+    }
+  ]
+}

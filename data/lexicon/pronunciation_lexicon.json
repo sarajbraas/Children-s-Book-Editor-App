@@ -1,0 +1,62 @@
+{
+  "description": "Shared, cross-manuscript pronunciation lexicon. A word entered here gets its respelling applied everywhere that word appears, in any manuscript, without needing to fix it chunk by chunk. Character names in particular recur across an author's books, so this is built to live outside any single manuscript file.",
+  "how_entries_are_added": "Added during human review when a reviewer catches the voice clone (or a reference TTS engine) mispronouncing a word with no other way to signal the correct pronunciation from plain text alone -- e.g. 'Ava' read as \"AH-vuh\" instead of the intended \"AY-vuh\" (long A, like 'apron'). Nothing about the spelling 'Ava' disambiguates that on its own, so it has to be recorded explicitly, once, here.",
+  "entry_shape": {
+    "word": "the word as it appears in manuscript text",
+    "respelling": "a plain-English phonetic respelling, readable by a human reviewer at a glance",
+    "ipa": "formal IPA transcription, for feeding directly to a TTS engine that accepts IPA/phoneme input",
+    "scope": "'global' (applies to every manuscript) or 'book:<title>' (applies only within that one book, e.g. if two different books happen to use the same word for different things)",
+    "note": "why this entry exists -- what the default/wrong reading was"
+  },
+  "entries": [
+    {
+      "word": "Ava",
+      "respelling": "AY-vuh",
+      "ipa": "\u02c8e\u026a.v\u0259",
+      "scope": "global",
+      "note": "Long A like 'apron,' not 'ah' like 'father.' Flagged after a voice clone test defaulted to the wrong vowel -- nothing in plain text disambiguates this, so it needs an explicit entry."
+    },
+    {
+      "word": "Pharaoh",
+      "respelling": "FAIR-oh",
+      "ipa": "\u02c8f\u025br.o\u028a",
+      "scope": "book:Pharaoh Duck",
+      "note": "Used as the duckling's actual name throughout the book, not just a one-off reference -- needs to read naturally and consistently every time, not stilted or over-enunciated."
+    },
+    {
+      "word": "caruncles",
+      "respelling": "kuh-RUNK-uhlz",
+      "ipa": "k\u0259\u02c8r\u028c\u014bk.\u0259lz",
+      "scope": "book:Turkey Takeover",
+      "note": "Uncommon turkey-anatomy word (the fleshy bumps on a turkey's head/neck) -- real risk of a TTS engine garbling or misplacing stress on an unfamiliar word like this."
+    },
+    {
+      "word": "snoods",
+      "respelling": "SNOODZ",
+      "ipa": "snudz",
+      "scope": "book:Turkey Takeover",
+      "note": "Another uncommon turkey-anatomy word (the flap over a turkey's beak), included for the same reason as 'caruncles.'"
+    }
+  ],
+  "resolution_pipeline": {
+    "description": "How pronunciation gets resolved for any word before synthesis. Tested against the CMU Pronouncing Dictionary (via the same 'pronouncing' Python package already used for rhyme/meter scansion) -- confirmed it already correctly covers common personal names (Ava, Peter, Benjamin, Eleanor, Annette, Pharaoh, Frannie, Nettie all resolve correctly, including the exact 'Ava' problem this lexicon was created to solve) but has no entry for invented/compound children's-book names (Flopsy, Mopsy, Cottontail all return nothing). The three-step order below reflects that: a large hand-built name database isn't needed, but invented names and deliberate exceptions will always need a fallback and a review step.",
+    "steps": [
+      {
+        "step": 1,
+        "name": "Dictionary lookup",
+        "action": "Check the word against the CMU Pronouncing Dictionary (via 'pronouncing') first. If found, use that phonetic transcription automatically -- no human involvement needed. This silently resolves the vast majority of common personal and place names correctly."
+      },
+      {
+        "step": 2,
+        "name": "Custom lexicon lookup",
+        "action": "If not found in the dictionary, check this file (pronunciation_lexicon.json) for a manually-curated entry -- reserved for invented character names, compound children's-book coinages, and deliberate exceptions where the intended reading differs from the dictionary default."
+      },
+      {
+        "step": 3,
+        "name": "Flag for review",
+        "action": "If the word is in neither, do not let the engine silently guess -- flag it for human review before synthesis, the same way out-of-vocabulary words were flagged during the rhyme-scansion work on Turkey Takeover ('casseroles', 'cubbyholes', 'preens' had no dictionary entry either)."
+      }
+    ],
+    "shared_across_both_apps": "This pipeline is part of the shared backend, not specific to the voice-clone app -- both the production tool and the editorial manuscript-checker need accurate pronunciation regardless of which voice (cloned or generic) is doing the reading."
+  }
+}

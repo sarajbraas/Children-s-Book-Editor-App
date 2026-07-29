@@ -1,0 +1,1220 @@
+{
+  "title": "The Tale of Peter Rabbit",
+  "author": "Beatrix Potter",
+  "note": "",
+  "book_profile": {
+    "genre": "fiction",
+    "style_era": "classic_literary",
+    "narrator_stance": "omniscient, gently wry, measured pace — comments on characters rather than fully embodying their urgency",
+    "emotional_range": {
+      "intensity_ceiling": "high",
+      "volume_ceiling": "loud",
+      "disabled_emotions": [],
+      "favored_humor_types": [
+        "dry_ironic",
+        "mischief_defiance"
+      ]
+    },
+    "verse_form": false,
+    "rhyme_scheme": null,
+    "dominant_meter": null,
+    "note": "Antagonist type ambiguous: this manuscript has a recurring antagonist or disruptor character. Confirm whether Villainous/Menacing should be disabled for this book's antagonist (a comic/chaotic disruptor, not a real threat) or left enabled (a genuine, if age-appropriate, threat) before production -- the classifier deliberately leaves it enabled by default rather than guessing, since wrongly disabling it for a real threat undersells actual danger, while leaving it enabled for a comic antagonist only costs an occasional line read slightly too dark."
+  },
+  "scenes": [
+    {
+      "scene_id": "narrator-direct-address",
+      "type": "stylistic_device",
+      "description": "The omniscient narrator steps outside the story to speak knowingly to the reader — 'I think he might have got away altogether...' and 'I am sorry to say that Peter was not very well...'. Each instance wants a distinct, gently wry, slightly-outside-the-story voice, separate from the in-scene urgency of Peter's chase, giving a confiding aside quality.",
+      "members": [
+        {
+          "chunk_id": "pr-021",
+          "role": "background"
+        },
+        {
+          "chunk_id": "pr-054",
+          "role": "background"
+        }
+      ]
+    },
+    {
+      "scene_id": "lost-clothes-motif",
+      "type": "narrative_motif",
+      "description": "Peter's clothing — the brand-new blue jacket with brass buttons and his shoes — is a genuine plot thread: it gets him caught, he sheds it to escape, it ends up as McGregor's scarecrow, and its loss lands him in trouble at home. Real stakes: the buttons nearly cost him his life, and losing a second outfit in a fortnight is the closing consequence. Chunks describing the clothing (especially pr-023) should be delivered with a note of doomed pride, and the scarecrow/home chunks with quiet finality.",
+      "members": [
+        {
+          "chunk_id": "pr-019",
+          "role": "setup"
+        },
+        {
+          "chunk_id": "pr-022",
+          "role": "build"
+        },
+        {
+          "chunk_id": "pr-023",
+          "role": "build"
+        },
+        {
+          "chunk_id": "pr-028",
+          "role": "climax"
+        },
+        {
+          "chunk_id": "pr-049",
+          "role": "resolution"
+        },
+        {
+          "chunk_id": "pr-052",
+          "role": "build"
+        },
+        {
+          "chunk_id": "pr-053",
+          "role": "resolution"
+        }
+      ]
+    },
+    {
+      "scene_id": "good-bunnies-vs-peter",
+      "type": "comedic_motif",
+      "description": "The running contrast between the three obedient siblings and naughty Peter. It is set up as the sisters dutifully gather blackberries while Peter defies his mother, and pays off in the final dry juxtaposition: Peter gets a dose of camomile tea in bed while Flopsy, Mopsy and Cotton-tail feast on bread, milk and blackberries. Deliver the ending beats with deadpan understatement so the ironic comeuppance lands for the adult reader without moralizing.",
+      "members": [
+        {
+          "chunk_id": "pr-008",
+          "role": "setup"
+        },
+        {
+          "chunk_id": "pr-010",
+          "role": "build"
+        },
+        {
+          "chunk_id": "pr-054",
+          "role": "payoff"
+        },
+        {
+          "chunk_id": "pr-055",
+          "role": "payoff"
+        }
+      ],
+      "humor_type": "Dry/Ironic (Deadpan)"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "pr-001",
+      "text": "Once upon a time there were four little rabbits, and their names were\nFlopsy, Mopsy, Cotton-tail and Peter.",
+      "emotion": "Neutral/Narrator",
+      "intensity": "low",
+      "volume": "normal",
+      "emphasis": [
+        "Flopsy",
+        "Mopsy",
+        "Cotton-tail",
+        "Peter"
+      ],
+      "note": "Classic storybook opening; warm, gentle establishing tone. Light lift on each name as they're introduced.",
+      "verse": {
+        "syllables_per_line": [
+          26
+        ],
+        "meter_break": false,
+        "rhyme_role": "opens_couplet",
+        "rhymes_with_chunk": "pr-020"
+      }
+    },
+    {
+      "id": "pr-002",
+      "text": "They lived with their mother in a sand-bank, underneath the root of a\nvery big fir tree.",
+      "emotion": "Neutral/Narrator",
+      "intensity": "low",
+      "volume": "normal",
+      "note": "Gentle scene-setting; warm even storytelling voice establishing the rabbits' home.",
+      "verse": {
+        "syllables_per_line": [
+          22
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-003",
+      "text": "\"Now, my dears,\" said old Mrs. Rabbit one morning, \"You may go into\nthe fields or down the lane, but don't go into Mr. McGregor's garden.",
+      "emotion": "Tender/Loving",
+      "secondary_emotion": "Nervous/Worried",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "don't"
+      ],
+      "speaker": "Mrs. Rabbit",
+      "note": "Warm motherly instruction with a gentle but firm cautionary edge on the warning; the 'don't' carries the underlying worry that pays off in the next line about their father.",
+      "verse": {
+        "syllables_per_line": [
+          34
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-004",
+      "text": "Your father had an accident there; he was put in a pie by Mrs. McGregor.\"",
+      "emotion": "Mysterious/Suspenseful",
+      "secondary_emotion": "Sad/Melancholic",
+      "intensity": "medium",
+      "volume": "soft",
+      "emphasis": [
+        "pie"
+      ],
+      "speaker": "Mrs. Rabbit",
+      "note": "A solemn cautionary warning delivered to the children — the fate of the father is stated matter-of-factly but ominously, with an undertone of sorrow. Potter's dry tone keeps it from tipping into overt grief.",
+      "verse": {
+        "syllables_per_line": [
+          21
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-005",
+      "text": "Now run along and don't get into mischief. I am going out.\"",
+      "emotion": "Calm/Soothing",
+      "secondary_emotion": "Tender/Loving",
+      "intensity": "low",
+      "volume": "normal",
+      "speaker": "Mrs. Rabbit",
+      "note": "Motherly instruction — warm, gently firm; caps a caution but not alarmed.",
+      "verse": {
+        "syllables_per_line": [
+          16
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-006",
+      "text": "Then old Mrs. Rabbit took a basket and her umbrella and went through\nthe wood to the baker's.",
+      "emotion": "Neutral/Narrator",
+      "intensity": "low",
+      "volume": "normal",
+      "note": "Gentle narrative transition following Mrs. Rabbit's departure; measured, matter-of-fact delivery.",
+      "verse": {
+        "syllables_per_line": [
+          24
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-007",
+      "text": "She bought a loaf of brown bread and five currant buns.",
+      "emotion": "Neutral/Narrator",
+      "intensity": "low",
+      "volume": "normal",
+      "verse": {
+        "syllables_per_line": [
+          12
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-008",
+      "text": "Flopsy, Mopsy and Cotton-tail who were good little bunnies went down\nthe lane together",
+      "emotion": "Neutral/Narrator",
+      "secondary_emotion": "Tender/Loving",
+      "intensity": "low",
+      "volume": "normal",
+      "emphasis": [
+        "good"
+      ],
+      "humor_type": "Dry/Ironic (Deadpan)",
+      "scene_refs": [
+        {
+          "scene_id": "good-bunnies-vs-peter",
+          "role": "setup"
+        }
+      ],
+      "note": "Gentle approving tone for the 'good little bunnies' — sets up contrast with naughty Peter in the next chunks",
+      "verse": {
+        "syllables_per_line": [
+          22
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-009",
+      "text": "To gather blackberries.",
+      "emotion": "Neutral/Narrator",
+      "intensity": "low",
+      "volume": "normal",
+      "note": "Gentle continuation of the previous line about the good bunnies; soft, pastoral tone before the contrast with naughty Peter.",
+      "verse": {
+        "syllables_per_line": [
+          6
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-010",
+      "text": "But Peter who was very naughty, ran straight away to Mr. McGregor's\ngarden and",
+      "emotion": "Playful/Silly",
+      "secondary_emotion": "Excited/Energetic",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "naughty",
+        "straight away"
+      ],
+      "humor_type": "Dry/Ironic (Deadpan)",
+      "scene_refs": [
+        {
+          "scene_id": "good-bunnies-vs-peter",
+          "role": "build"
+        }
+      ],
+      "note": "Naughty-Peter mischief contrasted with the good bunnies; builds momentum into the next chunk, so keep energy rising rather than resolved.",
+      "verse": {
+        "syllables_per_line": [
+          21
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-011",
+      "text": "Squeezed under the gate!",
+      "emotion": "Playful/Silly",
+      "secondary_emotion": "Excited/Energetic",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "Squeezed"
+      ],
+      "illustration_inference": {
+        "implied_scene": "Peter, small and eager, wriggles his plump body flat under the bottom rail of a wooden garden gate, tail and hind legs still outside as his head pokes into Mr. McGregor's lush vegetable garden",
+        "source": "inferred",
+        "visual_energy": "medium"
+      },
+      "note": "Payoff of Peter's naughty dash into the garden — mischievous, energetic delivery with a little burst on the action verb.",
+      "verse": {
+        "syllables_per_line": [
+          5
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-012",
+      "text": "First he ate some lettuces and some French beans",
+      "emotion": "Neutral/Narrator",
+      "secondary_emotion": "Playful/Silly",
+      "intensity": "low",
+      "volume": "normal",
+      "emphasis": [
+        "First"
+      ],
+      "note": "Wry narrator listing Peter's mischievous feast; 'First' sets up the building sequence that follows, so give it a slight anticipatory lilt.",
+      "verse": {
+        "syllables_per_line": [
+          11
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-013",
+      "text": "And then",
+      "emotion": "Playful/Silly",
+      "intensity": "medium",
+      "volume": "normal",
+      "note": "Transitional build leading into the rhythmic list of foods Peter eats; deliver with anticipatory lift to set up the next chunk.",
+      "verse": {
+        "syllables_per_line": [
+          2
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-014",
+      "text": "He\nAte\nSome\nRadishes",
+      "emotion": "Playful/Silly",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "Radishes"
+      ],
+      "illustration_inference": {
+        "implied_scene": "Peter Rabbit crouched greedily in the garden bed, nibbling a bunch of pulled-up red radishes with leafy tops scattered around him, cheeks full and eyes bright with mischief.",
+        "source": "inferred",
+        "visual_energy": "medium"
+      },
+      "note": "Word-by-word breakdown signals a deliberate comic build in Peter's overeating list; deliver with bouncy, deliberate rhythm building to the next 'feeling rather sick' beat.",
+      "verse": {
+        "syllables_per_line": [
+          6
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-015",
+      "text": "And then, feeling rather sick, he went to look for some parsley.",
+      "emotion": "Neutral/Narrator",
+      "secondary_emotion": "Humorous/Funny",
+      "intensity": "low",
+      "volume": "normal",
+      "emphasis": [
+        "sick"
+      ],
+      "humor_type": "Dry/Ironic (Deadpan)",
+      "note": "Gently wry narrator beat — the understated 'feeling rather sick' is dry comedy about Peter's overeating; slight amused lilt without breaking narration.",
+      "verse": {
+        "syllables_per_line": [
+          15
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-016",
+      "text": "But round the end of a cucumber frame, whom should he meet but Mr. McGregor!",
+      "emotion": "Surprised/Astonished",
+      "secondary_emotion": "Fearful/Scared",
+      "intensity": "high",
+      "volume": "normal",
+      "emphasis": [
+        "Mr. McGregor"
+      ],
+      "note": "The 'whom should he meet but' construction builds to a sudden reveal — pause before the name, then a jump; dread rides under the surprise as the danger arrives.",
+      "verse": {
+        "syllables_per_line": [
+          20
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-017",
+      "text": "Mr. McGregor was on his hands and knees planting out young cabbages,\nbut he jumped up and ran after Peter, waving a rake and calling out\n\"Stop thief!\"",
+      "emotion": "Excited/Energetic",
+      "secondary_emotion": "Angry/Frustrated",
+      "intensity": "high",
+      "volume": "loud",
+      "emphasis": [
+        "Stop thief!"
+      ],
+      "note": "Chase begins — narration of frantic action with an inline shout from Mr. McGregor; energy should lift sharply here even though prose is plain. 'Stop thief!' is a loud, angry embedded call, not a separate sound-effect chunk.",
+      "verse": {
+        "syllables_per_line": [
+          38
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-018",
+      "text": "Peter was most dreadfully frightened; he rushed all over the garden,\nfor he had forgotten the way back to the gate.",
+      "emotion": "Fearful/Scared",
+      "intensity": "high",
+      "volume": "normal",
+      "emphasis": [
+        "dreadfully",
+        "all over"
+      ],
+      "note": "Narrator describes Peter's panic; keep quickened, breathy pace to convey terror even though narration stays at normal volume",
+      "verse": {
+        "syllables_per_line": [
+          29
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-019",
+      "text": "He lost one shoe among the cabbages, and the other amongst the\npotatoes.",
+      "emotion": "Neutral/Narrator",
+      "secondary_emotion": "Excited/Energetic",
+      "intensity": "medium",
+      "volume": "normal",
+      "scene_refs": [
+        {
+          "scene_id": "lost-clothes-motif",
+          "role": "setup"
+        }
+      ],
+      "note": "Part of the frantic chase — narrator keeps a wry, measured tone while the content conveys Peter's panicked flight; slight energetic lift underneath. Setup for the lost-clothes motif.",
+      "verse": {
+        "syllables_per_line": [
+          20
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-020",
+      "text": "After losing them, he ran on four legs and went faster",
+      "emotion": "Fearful/Scared",
+      "secondary_emotion": "Excited/Energetic",
+      "intensity": "high",
+      "volume": "normal",
+      "emphasis": [
+        "four legs",
+        "faster"
+      ],
+      "note": "Chase scene continuing Peter's panicked flight; the wry narrator observes his frantic speed — fear driving the energy, delivered with quickening pace.",
+      "verse": {
+        "syllables_per_line": [
+          14
+        ],
+        "meter_break": false,
+        "rhyme_role": "closes_couplet",
+        "rhymes_with_chunk": "pr-001"
+      }
+    },
+    {
+      "id": "pr-021",
+      "text": "So that I think he might have got away altogether if he had not\nunfortunately run into a gooseberry net",
+      "emotion": "Mysterious/Suspenseful",
+      "secondary_emotion": "Nervous/Worried",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "gooseberry net"
+      ],
+      "scene_refs": [
+        {
+          "scene_id": "narrator-direct-address",
+          "role": "background"
+        }
+      ],
+      "note": "Wry omniscient narrator aside; 'if he had not unfortunately' builds a near-miss suspense that turns into the mishap — deliver with a slight held beat before 'gooseberry net'.",
+      "verse": {
+        "syllables_per_line": [
+          31
+        ],
+        "meter_break": true,
+        "rhyme_role": "standalone_interruption"
+      }
+    },
+    {
+      "id": "pr-022",
+      "text": "And got caught by the large buttons on his jacket.",
+      "emotion": "Nervous/Worried",
+      "secondary_emotion": "Fearful/Scared",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "caught"
+      ],
+      "scene_refs": [
+        {
+          "scene_id": "lost-clothes-motif",
+          "role": "build"
+        }
+      ],
+      "note": "Peril beat — Peter is trapped in the net; narrator's gently wry stance keeps it from tipping fully into fear, but the stakes are rising toward the next chunk where he gives himself up for lost.",
+      "verse": {
+        "syllables_per_line": [
+          12
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-023",
+      "text": "It was a blue jacket with brass buttons, quite new.",
+      "emotion": "Neutral/Narrator",
+      "secondary_emotion": "Sad/Melancholic",
+      "intensity": "low",
+      "volume": "normal",
+      "emphasis": [
+        "quite new"
+      ],
+      "scene_refs": [
+        {
+          "scene_id": "lost-clothes-motif",
+          "role": "build"
+        }
+      ],
+      "note": "Wry narrator aside; 'quite new' carries a gentle note of regret over the loss to come, delivered with a small knowing lilt rather than real grief.",
+      "verse": {
+        "syllables_per_line": [
+          12
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-024",
+      "text": "Peter gave himself up for lost and shed big tears;",
+      "emotion": "Sad/Melancholic",
+      "secondary_emotion": "Fearful/Scared",
+      "intensity": "high",
+      "volume": "normal",
+      "emphasis": [
+        "big tears"
+      ],
+      "note": "Peter despairing while trapped — genuine grief-driven crying blended with fear of being lost; narrator's wry stance keeps it from tipping into melodrama, but the emotional stakes are high.",
+      "verse": {
+        "syllables_per_line": [
+          12
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-025",
+      "text": "But his sobs were overheard by some friendly sparrows",
+      "emotion": "Neutral/Narrator",
+      "intensity": "medium",
+      "volume": "normal",
+      "note": "Transitional narration pivoting from Peter's despair to the arrival of help; a hopeful lift under the neutral telling.",
+      "verse": {
+        "syllables_per_line": [
+          13
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-026",
+      "text": "Who flew to him in great excitement and implored him to exert himself.",
+      "emotion": "Excited/Energetic",
+      "secondary_emotion": "Nervous/Worried",
+      "intensity": "high",
+      "volume": "loud",
+      "emphasis": [
+        "exert"
+      ],
+      "note": "The sparrows' 'great excitement' and urgent imploring lift this above the plain phrasing — narrator conveys their frantic encouragement as Peter is in danger.",
+      "verse": {
+        "syllables_per_line": [
+          18
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-027",
+      "text": "Mr. McGregor came up with a sieve which he intended to pop on the top\nof Peter, but Peter wriggled out just in time.",
+      "emotion": "Excited/Energetic",
+      "secondary_emotion": "Fearful/Scared",
+      "intensity": "high",
+      "volume": "normal",
+      "emphasis": [
+        "just in time"
+      ],
+      "note": "Near-capture and last-second escape — chase tension; narrator is gently wry but the beat carries real jeopardy and relief. Keep intensity high despite the measured narrator voice.",
+      "verse": {
+        "syllables_per_line": [
+          32
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-028",
+      "text": "Leaving his jacket behind him.",
+      "emotion": "Excited/Energetic",
+      "secondary_emotion": "Fearful/Scared",
+      "intensity": "high",
+      "volume": "loud",
+      "emphasis": [
+        "jacket"
+      ],
+      "scene_refs": [
+        {
+          "scene_id": "lost-clothes-motif",
+          "role": "climax"
+        }
+      ],
+      "note": "Climax of the escape/lost-clothes motif — sparse line but carries the frantic chase energy; the jacket loss is the key detail that pays off later.",
+      "verse": {
+        "syllables_per_line": [
+          8
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-029",
+      "text": "He rushed into the tool-shed and--",
+      "emotion": "Fearful/Scared",
+      "secondary_emotion": "Excited/Energetic",
+      "intensity": "high",
+      "volume": "normal",
+      "emphasis": [
+        "rushed"
+      ],
+      "note": "Chase-scene urgency; the trailing dash builds a cliffhanger into the next chunk — keep pace quick and cut off sharply.",
+      "verse": {
+        "syllables_per_line": [
+          8
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-030",
+      "text": "Jumped into a can.",
+      "emotion": "Fearful/Scared",
+      "secondary_emotion": "Excited/Energetic",
+      "intensity": "high",
+      "volume": "normal",
+      "emphasis": [
+        "can"
+      ],
+      "illustration_inference": {
+        "implied_scene": "Peter Rabbit leaps headlong into a large watering can inside the dim tool-shed, splashing into the water within, his ears and hind legs still visible mid-plunge.",
+        "source": "inferred",
+        "visual_energy": "high"
+      },
+      "note": "Frantic escape moment — Peter dives into a can while fleeing Mr. McGregor; sparse text but high physical urgency.",
+      "verse": {
+        "syllables_per_line": [
+          5
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-031",
+      "text": "It would have been a beautiful thing to hide in, if it had not had so\nmuch water in it. Mr. McGregor was quite sure that Peter was somewhere\nin the tool-shed, perhaps hidden underneath a flower-pot.",
+      "emotion": "Mysterious/Suspenseful",
+      "secondary_emotion": "Nervous/Worried",
+      "intensity": "medium",
+      "volume": "soft",
+      "emphasis": [
+        "water"
+      ],
+      "note": "Wry narrator aside about the water undercuts the tension, then builds suspense as McGregor closes in; keep hushed and deliberate.",
+      "verse": {
+        "syllables_per_line": [
+          52
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-032",
+      "text": "He began to turn them over carefully, looking under each.",
+      "emotion": "Mysterious/Suspenseful",
+      "intensity": "medium",
+      "volume": "soft",
+      "emphasis": [
+        "carefully"
+      ],
+      "note": "Building tension as McGregor methodically searches; deliberate, hushed delivery keeps Peter's danger alive between beats.",
+      "verse": {
+        "syllables_per_line": [
+          16
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-033",
+      "text": "Presently Peter sneezed \"Kertyschoo!\"",
+      "emotion": "Mysterious/Suspenseful",
+      "secondary_emotion": "Nervous/Worried",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "Kertyschoo"
+      ],
+      "illustration_inference": {
+        "implied_scene": "Peter the rabbit crouches wet and trembling behind an upturned flowerpot in the dim tool-shed, sneezing suddenly as Mr. McGregor spins around clutching a pot, alerted to his hiding spot",
+        "source": "inferred",
+        "visual_energy": "medium"
+      },
+      "note": "Inline sneeze embedded in a narrated sentence, not a whole-chunk sound effect; the 'Kertyschoo!' should pop as a sudden loud betraying sound within otherwise hushed hiding tension — narrator stays wry but the moment gives Peter away.",
+      "verse": {
+        "syllables_per_line": [
+          9
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-034",
+      "text": "Mr. McGregor was after him in no time, and tried to put his foot upon\nPeter, who",
+      "emotion": "Fearful/Scared",
+      "secondary_emotion": "Excited/Energetic",
+      "intensity": "high",
+      "volume": "loud",
+      "emphasis": [
+        "in no time"
+      ],
+      "note": "Peril action beat — McGregor lunging to trap Peter; drive pace fast and breathless, chunk cuts off mid-clause into the next line's escape.",
+      "verse": {
+        "syllables_per_line": [
+          23
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-035",
+      "text": "Jumped out of a window, upsetting three plants.",
+      "emotion": "Excited/Energetic",
+      "secondary_emotion": "Fearful/Scared",
+      "intensity": "high",
+      "volume": "normal",
+      "emphasis": [
+        "Jumped"
+      ],
+      "illustration_inference": {
+        "implied_scene": "Peter the rabbit leaps out of an open greenhouse window in a frantic bound, knocking over three potted plants that tumble and spill soil in mid-air, while Mr. McGregor lunges just behind him.",
+        "source": "inferred",
+        "visual_energy": "high"
+      },
+      "note": "Climax of the chase escape; sparse line but carries the frantic action of Peter fleeing — lean into the urgency with the tumbling plants.",
+      "verse": {
+        "syllables_per_line": [
+          11
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-036",
+      "text": "Peter sat down to rest; he was out of breath and trembling with\nfright, and he had not the least idea which way to go.",
+      "emotion": "Fearful/Scared",
+      "secondary_emotion": "Nervous/Worried",
+      "intensity": "high",
+      "volume": "normal",
+      "emphasis": [
+        "trembling with\nfright"
+      ],
+      "note": "Narrator describing Peter's exhaustion and fear after the chase; deliver with breathless, unsettled quality even though the narration itself is measured.",
+      "verse": {
+        "syllables_per_line": [
+          30
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-037",
+      "text": "Also he was very damp with sitting in that can.",
+      "emotion": "Neutral/Narrator",
+      "secondary_emotion": "Humorous/Funny",
+      "intensity": "low",
+      "volume": "normal",
+      "emphasis": [
+        "damp"
+      ],
+      "humor_type": "Dry/Ironic (Deadpan)",
+      "note": "Dry, gently wry aside — the narrator's understatement about Peter being soggy from hiding in the can lands as quiet comedy for the adult reader.",
+      "verse": {
+        "syllables_per_line": [
+          13
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-038",
+      "text": "After a time he began to wander about, going\nlippity--\nlippity--\nnot very fast and looking all around.",
+      "emotion": "Curious/Wondering",
+      "intensity": "low",
+      "volume": "soft",
+      "emphasis": [
+        "lippity",
+        "lippity"
+      ],
+      "note": "'lippity--lippity--' is a gentle rhythmic word evoking Peter's slow, cautious hopping — deliver with a light bouncing rhythm and slight pauses on the dashes; he's tentatively recovering from fright and looking around.",
+      "verse": {
+        "syllables_per_line": [
+          30
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-039",
+      "text": "He found a door in a wall; but it was locked and there was no room\nfor a fat little rabbit to squeeze underneath.",
+      "emotion": "Nervous/Worried",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "locked"
+      ],
+      "note": "Peter is lost and trapped; the wry 'fat little rabbit' detail keeps it gentle, but the obstacle raises quiet apprehension building toward his crying in pr-041",
+      "verse": {
+        "syllables_per_line": [
+          28
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-040",
+      "text": "An old mouse was running in and out over the stone doorstep, carrying\npeas and beans to her family in the wood. Peter asked her the way to\nthe gate but she had such a large pea in her mouth she could not\nanswer. She only shook her head at him.",
+      "emotion": "Neutral/Narrator",
+      "secondary_emotion": "Nervous/Worried",
+      "intensity": "medium",
+      "volume": "normal",
+      "note": "Gently wry omniscient narration; the mouse's comic inability to answer builds Peter's mounting predicament without alarm.",
+      "verse": {
+        "syllables_per_line": [
+          61
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-041",
+      "text": "Peter began to cry.",
+      "emotion": "Sad/Melancholic",
+      "secondary_emotion": "Fearful/Scared",
+      "intensity": "medium",
+      "volume": "soft",
+      "emphasis": [
+        "cry"
+      ],
+      "note": "Peter is lost and overwhelmed; the plain line carries real distress beneath the wry narration—let it land tenderly rather than played for laughs.",
+      "verse": {
+        "syllables_per_line": [
+          6
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-042",
+      "text": "Then he tried to find his way straight across the garden, but he\nbecame more and more puzzled. Presently he came to a pond where Mr. McGregor filled his water-cans. A white cat was staring at some\ngold-fish; she sat very, very still, but now and then the tip of her\ntail twitched as if it were alive. Peter thought it best to go away\nwithout speaking to her.",
+      "emotion": "Mysterious/Suspenseful",
+      "secondary_emotion": "Nervous/Worried",
+      "intensity": "medium",
+      "volume": "soft",
+      "emphasis": [
+        "very, very still",
+        "twitched"
+      ],
+      "note": "Quiet building tension as the still cat is described; narrator's wry measured stance keeps it hushed rather than alarmed, but Peter's cautious retreat carries low-grade worry.",
+      "verse": {
+        "syllables_per_line": [
+          89
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-043",
+      "text": "He had heard about cats from his cousin, little Benjamin Bunny.",
+      "emotion": "Neutral/Narrator",
+      "intensity": "low",
+      "volume": "normal",
+      "note": "Gentle aside explaining why Peter avoided the cat; wry omniscient narrator tone.",
+      "verse": {
+        "syllables_per_line": [
+          17
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-044",
+      "text": "He went back towards the tool-shed, but suddenly, quite close to him,\nhe heard the noise of a hoe--scr-r-ritch, scratch, scratch, scritch.",
+      "emotion": "Mysterious/Suspenseful",
+      "secondary_emotion": "Nervous/Worried",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "suddenly"
+      ],
+      "note": "The hoe sounds are inline onomatopoeia within a narrated sentence, not a standalone sound-effect chunk; deliver 'scr-r-ritch, scratch, scratch, scritch' with a slow, deliberate hush to build the sudden tension of Mr. McGregor being nearby.",
+      "verse": {
+        "syllables_per_line": [
+          29
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-045",
+      "text": "Peter scuttered underneath the bushes, but presently as nothing\nhappened, he came out and",
+      "emotion": "Mysterious/Suspenseful",
+      "secondary_emotion": "Nervous/Worried",
+      "intensity": "medium",
+      "volume": "soft",
+      "note": "Suspenseful hiding-then-emerging beat; narrator's gently wry omniscient voice keeps it measured rather than fully panicked. Chunk ends mid-sentence, so keep momentum leaning forward.",
+      "verse": {
+        "syllables_per_line": [
+          24
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-046",
+      "text": "Climbed upon a wheelbarrow, and peeped over.",
+      "emotion": "Mysterious/Suspenseful",
+      "secondary_emotion": "Curious/Wondering",
+      "intensity": "medium",
+      "volume": "soft",
+      "emphasis": [
+        "peeped"
+      ],
+      "note": "Peter cautiously peeking over the wheelbarrow — hushed, careful delivery building toward the reveal in the next chunk.",
+      "verse": {
+        "syllables_per_line": [
+          11
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-047",
+      "text": "The first thing he saw was Mr. McGregor hoeing onions. His back was\nturned towards Peter and beyond him was the gate!",
+      "emotion": "Mysterious/Suspenseful",
+      "secondary_emotion": "Nervous/Worried",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "gate"
+      ],
+      "note": "Beat of tension (McGregor spotted) tipping into hope on the exclamation — the gate means possible escape; lift on 'gate!'",
+      "verse": {
+        "syllables_per_line": [
+          30
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-048",
+      "text": "Peter got down very quietly off the wheel-barrow and started running\nas fast as he could go, along a straight walk behind some black\ncurrant bushes. Mr. McGregor caught sight of him at the corner, but\nPeter did not care. He slipped underneath the gate and was safe at\nlast in the wood outside the garden.",
+      "emotion": "Fearful/Scared",
+      "secondary_emotion": "Excited/Energetic",
+      "intensity": "high",
+      "volume": "normal",
+      "emphasis": [
+        "safe at last"
+      ],
+      "note": "Chase climax — starts stealthy ('very quietly') then bursts into a dash; builds tension and adrenaline, resolving on relief at 'safe at last'. Keep pace quick to match the escape.",
+      "verse": {
+        "syllables_per_line": [
+          77
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-049",
+      "text": "Mr. McGregor hung up the little jacket and the shoes for a\nscare-crow to frighten the blackbirds.",
+      "emotion": "Neutral/Narrator",
+      "secondary_emotion": "Humorous/Funny",
+      "intensity": "low",
+      "volume": "normal",
+      "emphasis": [
+        "scare-crow"
+      ],
+      "humor_type": "Dry/Ironic (Deadpan)",
+      "scene_refs": [
+        {
+          "scene_id": "lost-clothes-motif",
+          "role": "resolution"
+        }
+      ],
+      "note": "Dry payoff of the lost-clothes motif — the wry narrator delivers Peter's fate-of-clothes with a gentle amused lilt, not sad about the loss.",
+      "verse": {
+        "syllables_per_line": [
+          25
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-050",
+      "text": "Peter never stopped running or looked behind him",
+      "emotion": "Neutral/Narrator",
+      "secondary_emotion": "Nervous/Worried",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "never"
+      ],
+      "note": "Aftermath of the escape — Peter's residual fear keeps him running; narrator stays measured but the line carries relieved, breathless momentum.",
+      "verse": {
+        "syllables_per_line": [
+          12
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-051",
+      "text": "Till he got home to the big fir-tree.",
+      "emotion": "Neutral/Narrator",
+      "secondary_emotion": "Calm/Soothing",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "home"
+      ],
+      "note": "Completes the breathless run of the prior chunk — a note of relief as Peter finally reaches safety; slight settling of energy.",
+      "verse": {
+        "syllables_per_line": [
+          9
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-052",
+      "text": "He was so tired that he flopped down upon the nice soft sand on the\nfloor of the rabbit hole, and shut his eyes. His mother was busy\ncooking; she wondered what he had done with his clothes.",
+      "emotion": "Calm/Soothing",
+      "intensity": "low",
+      "volume": "soft",
+      "scene_refs": [
+        {
+          "scene_id": "lost-clothes-motif",
+          "role": "build"
+        }
+      ],
+      "note": "Relief after the chase — Peter collapsing home safe; gentle winding-down tone, with a small wry lift on the mother wondering about his clothes",
+      "verse": {
+        "syllables_per_line": [
+          45
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-053",
+      "text": "It was the second little jacket and pair of shoes that Peter had lost\nin a fortnight!",
+      "emotion": "Humorous/Funny",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "second",
+        "fortnight"
+      ],
+      "humor_type": "Dry/Ironic (Deadpan)",
+      "scene_refs": [
+        {
+          "scene_id": "lost-clothes-motif",
+          "role": "resolution"
+        }
+      ],
+      "note": "Wry narrator aside — the exclamation is gentle comic emphasis on Peter's repeated carelessness, not high arousal. The dry 'in a fortnight!' is the payoff of the lost-clothes motif.",
+      "verse": {
+        "syllables_per_line": [
+          22
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-054",
+      "text": "I am sorry to say that Peter was not very well during the evening. His\nmother put him to bed and made some camomile tea; and she gave a dose\nof it to Peter! \"One teaspoonful to be taken at bedtime.\" But--",
+      "emotion": "Humorous/Funny",
+      "secondary_emotion": "Neutral/Narrator",
+      "intensity": "medium",
+      "volume": "normal",
+      "emphasis": [
+        "sorry",
+        "Peter"
+      ],
+      "humor_type": "Dry/Ironic (Deadpan)",
+      "scene_refs": [
+        {
+          "scene_id": "narrator-direct-address",
+          "role": "background"
+        },
+        {
+          "scene_id": "good-bunnies-vs-peter",
+          "role": "payoff"
+        }
+      ],
+      "note": "Classic wry mock-sympathetic narrator aside; 'I am sorry to say' is affectionate dry humor, and the camomile-tea dosing contrasts comically with the good bunnies' supper. The trailing 'But--' sets up the punchline in the next chunk, so keep a small held beat at the end.",
+      "verse": {
+        "syllables_per_line": [
+          55
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    },
+    {
+      "id": "pr-055",
+      "text": "Flopsy, Mopsy and Cottontail had bread and milk and blackberries for\nsupper.",
+      "emotion": "Neutral/Narrator",
+      "secondary_emotion": "Humorous/Funny",
+      "intensity": "low",
+      "volume": "normal",
+      "emphasis": [
+        "Flopsy",
+        "Mopsy",
+        "Cottontail"
+      ],
+      "humor_type": "Dry/Ironic (Deadpan)",
+      "scene_refs": [
+        {
+          "scene_id": "good-bunnies-vs-peter",
+          "role": "payoff"
+        }
+      ],
+      "note": "Closing line: the dry payoff of the good-bunnies-vs-Peter contrast — the good siblings get a lovely supper while Peter is sick in bed. Deliver with a gentle, knowing warmth so the ironic contrast lands with the adult reader.",
+      "verse": {
+        "syllables_per_line": [
+          19
+        ],
+        "meter_break": true,
+        "rhyme_role": "interruption_between_rhyme"
+      }
+    }
+  ]
+}

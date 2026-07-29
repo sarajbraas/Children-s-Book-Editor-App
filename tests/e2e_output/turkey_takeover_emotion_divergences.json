@@ -1,0 +1,224 @@
+[
+  {
+    "chunk_id": "tt-002",
+    "text": "A prankster. A jokester. A jester. \u201cSo cool!\u201d",
+    "expected_emotion": "Neutral/Narrator",
+    "actual_emotion": "Playful/Silly"
+  },
+  {
+    "chunk_id": "tt-003",
+    "text": "They want him to sit. They want him to learn.",
+    "expected_emotion": "Humorous/Funny",
+    "actual_emotion": "Neutral/Narrator"
+  },
+  {
+    "chunk_id": "tt-004",
+    "text": "But instead\u2026.",
+    "expected_emotion": "Humorous/Funny",
+    "actual_emotion": "Mysterious/Suspenseful"
+  },
+  {
+    "chunk_id": "tt-005",
+    "text": "He gets glares from his teachers - quite stern.",
+    "expected_emotion": "Humorous/Funny",
+    "actual_emotion": "Nervous/Worried"
+  },
+  {
+    "chunk_id": "tt-006",
+    "text": "They ask him to read, and his skin starts to itch.",
+    "expected_emotion": "Playful/Silly",
+    "actual_emotion": "Nervous/Worried"
+  },
+  {
+    "chunk_id": "tt-007",
+    "text": "He daydreams and doodles. \u201cSchool\u2019s just not my niche.\u201d",
+    "expected_emotion": "Playful/Silly",
+    "actual_emotion": "Sad/Melancholic"
+  },
+  {
+    "chunk_id": "tt-009",
+    "text": "He taunts kids in Math class. In Reading he sings.",
+    "expected_emotion": "Mysterious/Suspenseful",
+    "actual_emotion": "Playful/Silly"
+  },
+  {
+    "chunk_id": "tt-010",
+    "text": "In Music he tickles. He whistles in Art.",
+    "expected_emotion": "Humorous/Funny",
+    "actual_emotion": "Playful/Silly"
+  },
+  {
+    "chunk_id": "tt-011",
+    "text": "And just when it\u2019s quiet, he slips out\u2026",
+    "expected_emotion": "Calm/Soothing",
+    "actual_emotion": "Mysterious/Suspenseful"
+  },
+  {
+    "chunk_id": "tt-012",
+    "text": "A fart\u2026",
+    "expected_emotion": "Playful/Silly",
+    "actual_emotion": "Humorous/Funny"
+  },
+  {
+    "chunk_id": "tt-013",
+    "text": "He hides near the lunchroom when he needs a rest.",
+    "expected_emotion": "Playful/Silly",
+    "actual_emotion": "Neutral/Narrator"
+  },
+  {
+    "chunk_id": "tt-015",
+    "text": "But back out at recess, the prankster prevails.",
+    "expected_emotion": "Humorous/Funny",
+    "actual_emotion": "Playful/Silly"
+  },
+  {
+    "chunk_id": "tt-016",
+    "text": "When no one is looking, he lures in the tails.",
+    "expected_emotion": "Excited/Energetic",
+    "actual_emotion": "Mysterious/Suspenseful"
+  },
+  {
+    "chunk_id": "tt-017",
+    "text": "They shake their caruncles. They waggle their wattles.",
+    "expected_emotion": "Excited/Energetic",
+    "actual_emotion": "Playful/Silly"
+  },
+  {
+    "chunk_id": "tt-018",
+    "text": "Their snoods flop around when they increase their throttles.",
+    "expected_emotion": "Excited/Energetic",
+    "actual_emotion": "Playful/Silly"
+  },
+  {
+    "chunk_id": "tt-020",
+    "text": "That full flock of turkeys is forceful. They\u2019re in!",
+    "expected_emotion": "Mysterious/Suspenseful",
+    "actual_emotion": "Excited/Energetic"
+  },
+  {
+    "chunk_id": "tt-023",
+    "text": "They knock over trash cans. They gobble at Frannie.",
+    "expected_emotion": "Sad/Melancholic",
+    "actual_emotion": "Excited/Energetic"
+  },
+  {
+    "chunk_id": "tt-024",
+    "text": "They trample the bookshelves. Their speed is uncanny.",
+    "expected_emotion": "Nervous/Worried",
+    "actual_emotion": "Excited/Energetic"
+  },
+  {
+    "chunk_id": "tt-025",
+    "text": "Tom takes in the scene with a satisfied grin",
+    "expected_emotion": "Nervous/Worried",
+    "actual_emotion": "Playful/Silly"
+  },
+  {
+    "chunk_id": "tt-026",
+    "text": "at the chaos he started when he let them in.",
+    "expected_emotion": "Fearful/Scared",
+    "actual_emotion": "Playful/Silly"
+  },
+  {
+    "chunk_id": "tt-027",
+    "text": "But\u2026",
+    "expected_emotion": "Nervous/Worried",
+    "actual_emotion": "Mysterious/Suspenseful"
+  },
+  {
+    "chunk_id": "tt-028",
+    "text": "The turkeys blast by him and eat one kid\u2019s lunch.",
+    "expected_emotion": "Nervous/Worried",
+    "actual_emotion": "Excited/Energetic"
+  },
+  {
+    "chunk_id": "tt-030",
+    "text": "They gobble up all of the tot casseroles.",
+    "expected_emotion": "Nervous/Worried",
+    "actual_emotion": "Excited/Energetic"
+  },
+  {
+    "chunk_id": "tt-031",
+    "text": "They even invade little kids' cubbyholes.",
+    "expected_emotion": "Fearful/Scared",
+    "actual_emotion": "Excited/Energetic"
+  },
+  {
+    "chunk_id": "tt-032",
+    "text": "Tom's art room is trampled. The paint tubes are splat.",
+    "expected_emotion": "Nervous/Worried",
+    "actual_emotion": "Excited/Energetic"
+  },
+  {
+    "chunk_id": "tt-033",
+    "text": "And music is dead \u2018cause the drums are now flat.",
+    "expected_emotion": "Excited/Energetic",
+    "actual_emotion": "Humorous/Funny"
+  },
+  {
+    "chunk_id": "tt-034",
+    "text": "The math tests are crumpled. They can\u2019t read the scores.",
+    "expected_emotion": "Excited/Energetic",
+    "actual_emotion": "Angry/Frustrated"
+  },
+  {
+    "chunk_id": "tt-036",
+    "text": "Then just at that moment, like pulled by a hook,",
+    "expected_emotion": "Playful/Silly",
+    "actual_emotion": "Mysterious/Suspenseful"
+  },
+  {
+    "chunk_id": "tt-037",
+    "text": "The turkeys bob right into Tom\u2019s favorite nook.",
+    "expected_emotion": "Playful/Silly",
+    "actual_emotion": "Excited/Energetic"
+  },
+  {
+    "chunk_id": "tt-038",
+    "text": "Tom\u2019s eyes bulge out wide. \u201cHelp! Hurry! Zoom-zoom!\u201d",
+    "expected_emotion": "Excited/Energetic",
+    "actual_emotion": "Fearful/Scared"
+  },
+  {
+    "chunk_id": "tt-040",
+    "text": "Tom cannot control them. He raises his fists.",
+    "expected_emotion": "Excited/Energetic",
+    "actual_emotion": "Angry/Frustrated"
+  },
+  {
+    "chunk_id": "tt-044",
+    "text": "\u201cIt\u2019s our school no more!\u201d",
+    "expected_emotion": "Joyful/Happy",
+    "actual_emotion": "Excited/Energetic"
+  },
+  {
+    "chunk_id": "tt-045",
+    "text": "The rafter of turkeys fluffs snoods and their chests.",
+    "expected_emotion": "Joyful/Happy",
+    "actual_emotion": "Playful/Silly"
+  },
+  {
+    "chunk_id": "tt-046",
+    "text": "The kids must go up against their greatest test.",
+    "expected_emotion": "Joyful/Happy",
+    "actual_emotion": "Excited/Energetic"
+  },
+  {
+    "chunk_id": "tt-047",
+    "text": "Gobble gobble gobble gobble gobble!!!!!",
+    "expected_emotion": "Tender/Loving",
+    "actual_emotion": "Excited/Energetic"
+  },
+  {
+    "chunk_id": "tt-048",
+    "text": "Tom points to Annette, and to Juan, Eleanor.",
+    "expected_emotion": "Neutral/Narrator",
+    "actual_emotion": "Excited/Energetic"
+  },
+  {
+    "chunk_id": "tt-049",
+    "text": "He motions to them to prop open the door.",
+    "expected_emotion": "Humorous/Funny",
+    "actual_emotion": "Excited/Energetic"
+  }
+]
